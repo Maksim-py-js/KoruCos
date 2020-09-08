@@ -1,0 +1,1534 @@
+@media screen and (max-width: 1530px) {
+    .header {
+        &__top {
+            max-width: 1330px;
+        }
+        &__menu-wp {
+            ul.menu,
+            ul.sub-menu,
+            .button {
+                max-width: 1330px;
+            }
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 850px;
+            flex-wrap: wrap;
+            height: 100vh;
+            .column {
+                width: 33%;
+            }
+        }
+    }
+    .mainSlider {
+        max-width: 1330px;
+        width: 100%;
+    }
+    .footer {
+        &__box {
+            max-width: 1300px;
+        }
+    }
+}
+@media screen and (max-width: 1470px) {
+    .header {
+        &__top {
+            max-width: 1240px;
+        }
+        &__menu-wp {
+            ul.menu,
+            ul.sub-menu,
+            .button  {
+                max-width: 1240px;
+            }
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 850px;
+            flex-wrap: wrap;
+            height: 100vh;
+            .column {
+                width: 33%;
+            }
+        }
+    }
+    .mainSlider {
+        max-width: 1240px;
+        width: 100%;
+    }
+    .footer {
+        &__box {
+            max-width: 1240px;
+        }
+    }
+}
+@media screen and (max-width: 1360px) {
+    .header {
+        &__top {
+            max-width: 1160px;
+        }
+        &__search {
+            .searchInput {
+                padding: 14px 0 12px 39px;
+                width: 395px;
+            }        
+        }
+        &__menu-wp {
+            ul.menu,
+            ul.sub-menu,
+            .button {
+                max-width: 1160px;
+            }
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 850px;
+            flex-wrap: wrap;
+            height: 100vh;
+            .column {
+                width: 33%;
+            }
+        }
+    }
+    .mainSlider {
+        max-width: 1160px;
+        width: 100%;
+        &__card {
+            max-width: 460px;
+        }
+    }
+    .footer {
+        &__box {
+            max-width: 1160px;
+        }
+    }
+}
+@media screen and (max-width: 1280px) {
+    .header {
+        &__top {
+            max-width: 1046px;
+        }
+        &__search {
+            .searchInput {
+                padding: 14px 0 12px 39px;
+                width: 395px;
+            }        
+        }
+        &__menu-wp {
+            ul.menu,
+            ul.sub-menu,
+            .button {
+                max-width: 1046px;
+            }
+        }
+    }
+    .mainSlider {
+        max-width: 1046px;
+        width: 100%;
+        &__card {
+            max-width: 410px;
+        }
+    }
+    .footer {
+        &__box {
+            max-width: 1114px;
+        }
+        &__submit {
+            &-box {
+                max-width: 1040px;
+            }
+        }
+    }
+    .box {
+        max-width: 1040px;
+    }
+    .advantages {
+        &__box {
+            max-width: 1040px;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 1040px;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 1040px;
+        }
+        &__button {
+            grid-row-start: 14;
+            grid-row-end: 12;
+        }
+    }
+    .about {
+        &__button {
+            grid-row-start: 12;
+            grid-row-end: 10;
+            grid-column-start: 6;
+            grid-column-end: 9;
+        }
+    }
+}
+@media screen and (max-width: 1170px) {
+    .header {
+        &__top {
+            max-width: 904px;
+        }
+        &__search {
+            .searchInput {
+                padding: 14px 0 12px 29px;
+                width: 290px;
+            }        
+        }
+        &__menu-wp {
+            display: none;
+        }
+    }
+    .mainSlider {
+        margin: 20px auto;
+        padding: 40px 20px 0 20px;
+        max-width: 904px;
+    }
+    .footer {
+        &__box {
+            max-width: 904px;
+        }
+    }
+}
+@media screen and (max-width: 1024px) {
+    .header {
+        &__top {
+            max-width: 854px;
+        }
+        &__search {
+            .searchInput {
+                padding: 14px 0 12px 29px;
+                width: 220px;
+            }        
+        }
+    }
+    .mainSlider {
+        max-width: 854px;
+        &__card {
+            max-width: 390px;
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 600px;
+            flex-wrap: wrap;
+            height: 100%;
+            .column {
+                width: 50%;
+            }
+        }
+    }
+    .footer {
+        &__box {
+            max-width: 844px;
+        }
+    }
+}
+@media screen and (max-width: 980px) {
+    #adaptiveSearch.adaptiveSearch {
+        .header {
+            &__logo {
+                display: none;
+            }
+            &__search {
+                display: block;
+                display: flex;
+            }
+            &__nav {
+                nav {
+                    display: none;
+                }
+            }
+        }
+    }
+    .header {
+        &__logo {
+            display: block;
+        }
+        &__top {
+            max-width: 870px;
+            margin: 0 auto 0 0;
+            padding: 60px 20px 0 20px;
+        }
+        &__search {
+            align-items: center;
+            .searchInput {
+                width: 260px;
+            }        
+        }
+    }
+    .mainSlider {
+        margin: 0 auto 0 0;
+        padding: 40px 20px 0 20px;
+        max-width: 870px;
+        &__card {
+            max-width: 330px;
+        }
+    }
+    .leftSideBar {
+        display: none;
+    }
+    .rightSideBar {  
+        &__hideCart,
+        &__hideRegister,
+        &__hideNumber {
+            &Bg {
+                left: 0;
+            }
+        }
+        &__hideRegister {
+            height: 100%;
+            padding: 260px 30px 0 29px;
+        }
+        &__registerButton {
+            display: block;
+            &-rotate {
+                display: none;
+            }
+        }
+        &__number {
+            display: block;
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 460px;
+            flex-wrap: wrap;
+            height: 100%;
+            .column {
+                width: 460px;
+            }
+        }
+    }
+    .footer {
+        &__box {
+            padding-left: 21px;
+            margin: 0 auto 0 0;
+            max-width: 900px;
+        }
+        &__column {
+            width: 33%;
+            border-left: none;
+            padding-left: 0;
+            &-menu {
+                &-2 {
+                    display: none;
+                }
+            }
+        }
+        &__logo {
+            a {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        &__sketches {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 918px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 188px;
+                }
+                button {
+                    width: 188px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 960px) {
+    .stock {
+        &__title {
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+            margin: 20px 0 20px;
+        }
+        &__subtitle {
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0.32px;
+            margin: 10px 0;
+        }
+        &__timerClock {
+            width: 320px;
+        }
+        &__timerItem {
+            height: 37px;
+            width: 50px;
+            padding-top: 13px;
+        }
+        &__timerTitle {
+            margin: 30px 0 10px 0;
+            font-size: 14px;
+            letter-spacing: 0.18px;
+        }
+        &__num {
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0.36px;
+        }
+        &__timerName {
+            display: none;
+        }
+        &__dot {
+            font-size: 18px;
+            letter-spacing: 0.4px;
+        }
+    }
+    .about {
+        &__button {
+            grid-row-start: 12;
+            grid-row-end: 10;
+            grid-column-start: 6;
+            grid-column-end: 9;
+        }
+        &__image {
+            grid-row-start: 1;
+            grid-row-end: 10;
+            grid-column-start: 2;
+            grid-column-end: 15;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 950px) {
+    .header {
+        &__top {
+            max-width: 800px;
+        }
+        &__search {
+            .searchInput {
+                width: 260px;
+            }        
+        }
+        &__search {
+            display: none;
+            align-items: center;
+            .searchInput {
+                width: 490px;
+            }        
+        }
+        &__nav {
+            .button-adaptiveSearch {
+                display: block;  
+            }
+        }
+    }
+    .mainSlider {
+        max-width: 800px;
+        &__card {
+            max-width: 370px;
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            width: 460px;
+            .column {
+                width: 460px;
+            }
+        }
+    }
+    .footer {
+        &__box {
+            max-width: 800px;
+        }
+    }
+}
+@media screen and (max-width: 880px) {
+    .header {
+        &__logo {
+            display: block;
+        }
+        &__top {
+            max-width: 720px;
+            margin: 0 auto 0 0;
+            padding: 60px 20px 0 20px;
+        }
+        &__search {
+            display: none;
+            align-items: center;
+            .searchInput {
+                width: 490px;
+            }        
+        }
+        &__nav {
+            .button-adaptiveSearch {
+                display: block;  
+            }
+        }
+    }
+    .mainSlider {
+        margin: 0 auto 0 0;
+        padding: 40px 20px 0 20px;
+        max-width: 720px;
+        &__card {
+            max-width: 330px;
+        }
+    }
+    .leftSideBar {
+        display: none;
+    }
+    .rightSideBar {  
+        &__hideCart,
+        &__hideRegister,
+        &__hideNumber {
+            &Bg {
+                left: 0;
+            }
+        }
+        &__hideRegister {
+            height: 100%;
+            padding: 260px 30px 0 29px;
+        }
+        &__registerButton {
+            display: block;
+            &-rotate {
+                display: none;
+            }
+        }
+        &__number {
+            display: block;
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            min-width: 100px;
+            width: 360px;
+            flex-wrap: wrap;
+            height: 100%;
+            .column {
+                width: 360px;
+            }
+        }
+    }
+    .footer {
+        &__box {
+            padding-left: 21px;
+            margin: 0 auto 0 0;
+            max-width: 700px;
+        }
+        &__column {
+            width: 50%;
+            border-left: none;
+            padding-left: 0;
+            &-menu {
+                display: none;
+            }
+        }
+        &__logo {
+            a {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        &__sketches {
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 718px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 188px;
+                }
+                button {
+                    width: 188px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 780px) {
+    .header {
+        &__top {
+            max-width: 670px;
+        }
+    }
+    .mainSlider {
+        max-width: 670px;
+    }
+    .box {
+        max-width: 1040px;
+    }
+    .advantages {
+        &__box {
+            max-width: 605px;
+            margin: 0 auto;
+        }
+        &__item {
+            width: calc(100% / 2 - 40px);
+            margin: 20px;
+        }
+    }
+    .services {
+        &__card {
+            width: calc(100% / 2 - 40px);
+        }
+        &__button {
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 1040px;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 1040px;
+        }
+        &__button {
+            grid-row-start: 13;
+            grid-row-end: 11;
+            grid-column-start: 12;
+            grid-column-end: 16;
+        }
+    }
+    .about {
+        &__title {
+            font-size: 25px;
+            font-weight: bold;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            letter-spacing: 0.32px;
+        }
+        &__button {
+            grid-row-start: 11;
+            grid-row-end: 9;
+            grid-column-start: 5;
+            grid-column-end: 9;
+        }
+        &__image {
+            grid-row-start: 1;
+            grid-row-end: 10;
+            grid-column-start: 2;
+            grid-column-end: 15;
+            img {
+                width: 100%;
+            }
+        }
+        &__submit {
+            &-box {
+                max-width: 1040px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .header {
+        &__top {
+            max-width: 650px;
+        }
+    }
+    .mainSlider {
+        max-width: 650px;
+    }
+    .stock {
+        &__title {
+            font-size: 25px;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+            margin: 20px 0 20px;
+        }
+        &__subtitle {
+            font-weight: normal;
+            font-size: 14px;
+            letter-spacing: 0.32px;
+            margin: 10px 0;
+        }
+        &__timerClock {
+            width: 270px;
+        }
+        &__timerItem {
+            height: 37px;
+            width: 50px;
+            padding-top: 13px;
+        }
+        &__timerTitle {
+            margin: 30px 0 10px 0;
+            font-size: 14px;
+            letter-spacing: 0.18px;
+        }
+        &__num {
+            font-size: 16px;
+            font-weight: bold;
+            letter-spacing: 0.36px;
+        }
+        &__timerName {
+            display: none;
+        }
+        &__dot {
+            font-size: 18px;
+            letter-spacing: 0.4px;
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    .header {
+        &__top {
+            max-width: 630px;
+        }
+    }
+    .mainSlider {
+        max-width: 630px;
+    }
+    .footer {
+        &__box {
+            max-width: 620px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 668px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 158px;
+                }
+                button {
+                    width: 158px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 720px) {
+    .header {
+        &__top {
+            max-width: 600px;
+        }        
+    }
+    .mainSlider {
+        max-width: 600px;
+    }
+    .footer {
+        &__box {
+            max-width: 600px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 638px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 158px;
+                }
+                button {
+                    width: 158px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 670px) {
+    .header {
+        &__top {
+            max-width: 550px;
+        }
+    }
+    .mainSlider {
+        max-width: 550px;
+    }
+    .footer {
+        &__box {
+            max-width: 550px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 568px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 138px;
+                }
+                button {
+                    width: 138px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 659px) {
+    .stock {
+        margin: 50px 0;
+        &__box {
+            max-width: 500px;
+            display: block;
+        }
+        .redBlock {
+            display: none;
+        }
+        &__redText {
+            margin-top: 15px;
+        }
+        &__timerClock {
+            width: 350px;
+        }
+        &__sliders {
+            width: 100%;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 24px;
+            margin-top: 15px;
+        }
+        &__timerName {
+            display: block;
+        }
+        &__card {
+            padding: 0;
+        }
+        &__timerTitle {
+            margin: 15px 0 10px;
+            font-size: 15px;
+        }
+        &__timerItem {
+            height: 47px;
+            width: 60px;
+            padding-top: 13px;
+        }
+        &__num {
+            font-size: 18px;
+        }
+        &__button {
+            margin-top: 20px;
+        }
+    }
+    .about {
+        margin: 50px 0;
+        &__card {
+            padding: 0;
+        }
+        &__box {
+            display: block;
+            max-width: 500px;
+        }
+        .blueBlock {
+            display: none;
+        }
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: 22px;
+        }
+    }
+    .articles {
+        &__slider {
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;   
+        }
+        &__text {
+            display: block;
+            position: static;
+
+            padding: 10px 20px;
+            max-width: 500px;
+            width: 100%;
+            background: #fff;
+            transform: matrix(1, 0, 0, 1, -0, 0);
+        }
+        &__images {
+            width: 100%;
+            max-width: 500px;
+        }
+        &__title {
+            font-size: 14px;
+        }
+        &__subtitle {
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.3px;
+        }
+
+    }
+}
+@media screen and (max-width: 620px) {
+    .header {
+        &__top {
+            max-width: 500px;
+        }
+        &__nav {
+            nav {
+                display: none;
+            }
+        }
+        &__search {
+            display: none;
+            .searchInput {
+                width: 332px;
+            }        
+        }
+    }
+    .mainSlider {
+        max-width: 500px;
+    }
+    .footer {
+        &__box {
+            max-width: 500px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto 0 0;
+                max-width: 558px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 138px;
+                }
+                button {
+                    width: 138px;
+        
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 580px) {
+    #adaptiveSearch-hover.adaptiveSearch-hover {
+        background: #0aa198 url(../img/png/search-w.png) no-repeat 50% 50%;
+    }
+    .rightSideBar {  
+        &__nav {
+            display: none;
+            &-top {
+                display: block;
+                display: flex;
+            }
+        }
+        &__bg {
+            height: 0;
+            width: 0;   
+        }
+        &__hideMenu {
+            display: none;
+            position: absolute;
+            top: 50px;
+            right: 0px;
+            background: #00a29a;
+            width: 100%;    
+            height: 100%;
+            z-index: 500;
+            ul {
+                background: #00a29a;
+                li {
+                    align-items: center;
+                    display: flex;
+                    flex-wrap: wrap;
+                    &:hover {
+                        background: #fff;
+                        a {
+                            color: #0aa198;
+                        }
+                        .rightSidebar__hideMenu-items {
+                            display: block;
+                        }
+                    }
+                    a {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &__hideRegister {
+            top: 50px;
+            left: 0px;
+            padding: 33px 30px 0 29px;
+            &Bg {
+                top: 50px;
+                right: 0;
+                width: 100%;
+            }
+        }
+        &__hideCart,
+        &__hideNumber {
+            top: 50px;
+            right: 0px;
+            padding: 33px 30px 0 29px;
+            &Bg {
+                top: 50px;
+                left: 0;
+            }
+        }
+        &__cart {
+            padding: 20px 20px 15px 0;
+        }
+        .cart-top,
+        .compare-top {
+            padding-right: 20px;
+            padding-left: 10px;
+        }
+    }
+    .rightSidebar__hideMenu-items {
+        .row {
+            position: static;
+            width: 100%;
+            height: 100%;
+            .column {
+                width: 100%;
+                ul {
+                    background:  white; 
+                }
+            }
+        }
+    }
+    .header {
+        &__logo {
+            height: 100%; 
+            margin-left: 20px;
+            img {
+                height: 100%;
+            }
+        }
+        &__top {
+            padding: 72px 0 0 0;
+        }
+        &__search {
+            align-items: center;
+            margin: 2px 0 3px 0;
+            .searchInput {
+                padding: 19px 0 17px 20px;
+                background:transparent;
+                width: 309px;
+            }        
+        }
+        &__buttons {
+            position: relative;
+            display: flex;
+            .buttonDisplayNone {
+                display: none;
+            }
+            .advancedSearch {
+                height: 50px;
+                .hideMenu {
+                    display: none;
+                    position: absolute;
+                    top: 50px;
+                    right: 0px;
+                    left: -230px;
+                    width: 305px;
+                    padding: 33px 0 0 20px;
+                    hr {
+                        margin-top: 35px;
+                    }
+                    .block {
+                        padding: 0;
+                        display: block;
+                        margin:  0;
+                        input,
+                        select {
+                            width: 280px;
+                        }
+                        .select-price {
+                            width: 120px;
+                        }
+                        .inputs {
+                            display: flex;
+                            justify-content: space-between;
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+        }
+        &__nav {
+            nav {            
+                display: none;
+            }
+            .button-adaptiveSearch {
+                margin-left: 0;
+                margin-right: 0;
+                width: 50px;
+                height: 50px;
+                padding: 0;
+            }
+        }
+    }
+    .mainSlider {
+        margin-top: 20px;
+        padding: 0;
+        &__background {
+            img {
+                width: 100%;
+            }
+        }
+        &__content {
+            margin-top: 0;
+            margin-left: 20px;
+        }
+        &__card {
+            padding-bottom: 0;
+            padding-right: 0;
+        }
+        &__title {
+            font-size: 22px;
+            margin-top: 0;
+        }
+    }
+    .footer {
+        &__box {
+            margin: 0 auto 0 0;
+            max-width: 320px;
+            padding-top: 50px;
+            padding-bottom: 70px;
+            padding-left: 0;
+        }
+        &__row {
+            display: flex;
+            flex-wrap: wrap;
+            position: relative;
+            padding-left: 21px;
+        }
+        &__column {
+            width: 100%;
+            border-left: none;
+            padding-left: 0;
+            &-menu {
+                display: none;
+            }
+        }
+        &__socials {
+            margin-bottom: 30px;  
+        }
+        &__logo {
+            a {
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+        &__copyright {
+            margin-top: 45px;
+        }
+        &__sketches {
+            position: static;
+            margin-top: 35px;
+        }
+        &__submit {
+            margin-bottom: 60px;
+            &-box {
+                margin: 0 auto;
+                max-width: 385px;
+            }
+            &-form {
+                margin: 37px auto 0 0;
+                input {
+                    width: 361px;
+                    margin: 10px 0;
+                }
+                button {
+                    width: 385px;
+                    margin: 10px 0;
+                }
+            }
+            &-title {
+                margin-top: 68px;
+                font-size: 22px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 480px) {
+    .popular {
+        &__more {
+            display: none;
+        }
+        &__title {
+            font-size: 22px;
+            margin: 0;
+        }
+    }
+    .newItems {
+        &__more {
+            display: none;
+        }
+    }
+}
+@media screen and (max-width: 380px) {
+    .box {
+        max-width: 320px;
+    }
+    .advantages {
+        &__box {
+            max-width: 320px;
+        }
+        &__item {
+            max-width: 320px;
+            width: 100%;  
+            margin-top: 10px;  
+            &:last-child {
+                .advantages__icon {
+                    width: 50px;
+                }
+            }
+        }
+        &__icon {
+            width: 33px;
+            margin-right: 15px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .services {
+        &__card {
+            max-width: 320px;
+            width: 100%;  
+            margin: 10px;
+        }
+        &__button {
+            width: 100%;
+        }
+        &__item {
+            display: none;
+        }
+    }
+    .popular {
+        &__more {
+            display: none;
+        }
+        &__title {
+            font-size: 22px;
+            margin: 0;
+        }
+    }
+    .newItems {
+        &__more {
+            display: none;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 320px;
+        }
+        &__card {
+            padding: 0;
+        }
+    }
+    .sponsor {
+        &__items {
+            padding: 30px 0;
+            width: 100%;
+        }
+    }
+    .sponsor .sponsor__wrapper.box {
+        width: 100%;
+        max-width: 380px;
+    }
+    .stock {
+        margin: 50px 0;
+        &__box {
+            max-width: 320px;
+            display: block;
+        }
+        .redBlock {
+            display: none;
+        }
+        &__redText {
+            margin-top: 15px;
+        }
+        &__timerClock {
+            width: 250px;
+        }
+        &__sliders {
+            width: 100%;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 24px;
+            margin-top: 15px;
+        }
+        &__card {
+            padding: 0;
+        }
+        &__timerTitle {
+            margin: 15px 0 10px;
+            font-size: 15px;
+        }
+        &__timerItem {
+            height: 27px;
+            width: 40px;
+            padding-top: 10px;
+        }
+        &__timerName {
+            display: none;
+        } 
+        &__num {
+            font-size: 14px;
+        }
+        &__button {
+            margin-top: 20px;
+        }
+    }
+    .reviews {
+        &__more {
+            display: none;
+        }
+    }
+    .about {
+        margin: 50px 0;
+        &__box {
+            display: block;
+        }
+        .blueBlock {
+            display: none;
+        }
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: 22px;
+        }
+    }
+    .footer__submit {
+        &-box {
+            max-width: 320px;
+        }
+    }
+}
+@media screen and (max-width: 375px) {
+    .header {
+        &__search {
+            align-items: center;
+            margin: 2px 0 3px 0;
+            .searchInput {
+                padding: 19px 0 17px 20px;
+                background:transparent;
+                width: 259px;
+            }        
+        }
+    }
+    .footer__submit {
+        &-box {
+            max-width: 335px;
+        }
+        &-form {
+            input {
+                width: 311px;
+            }
+            button {
+                width: 335px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 380px) {
+    .box {
+        max-width: 320px;
+    }
+    .advantages {
+        &__box {
+            max-width: 320px;
+        }
+        &__item {
+            max-width: 320px;
+            width: 100%;  
+            margin-top: 10px;  
+            &:last-child {
+                .advantages__icon {
+                    width: 50px;
+                }
+            }
+        }
+        &__icon {
+            width: 33px;
+            margin-right: 15px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .services {
+        &__card {
+            max-width: 320px;
+            width: 100%;  
+            margin: 10px;
+        }
+        &__button {
+            width: 100%;
+        }
+        &__item {
+            display: none;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 320px;
+        }
+        &__card {
+            padding: 0;
+        }
+    }
+    .sponsor {
+        &__items {
+            padding: 30px 0;
+            width: 100%;
+        }
+    }
+    .sponsor .sponsor__wrapper.box {
+        width: 100%;
+        max-width: 380px;
+    }
+    .reviews {
+        &__more {
+            display: none;
+        }
+    }
+    .about {
+        margin: 50px 0;
+        &__box {
+            display: block;
+        }
+        .blueBlock {
+            display: none;
+        }
+        &__image {
+            display: none;
+        }
+        &__title {
+            font-size: 22px;
+        }
+    }
+    .footer__submit {
+        &-box {
+            max-width: 320px;
+        }
+    }
+    .stock {
+        margin: 50px 0;
+        &__box {
+            max-width: 320px;
+            display: block;
+        }
+        .redBlock {
+            display: none;
+        }
+        &__redText {
+            margin-top: 15px;
+        }
+        &__timerClock {
+            width: 250px;
+        }
+        &__sliders {
+            width: 100%;
+        }
+        &__title {
+            font-size: 22px;
+            line-height: 24px;
+            margin-top: 15px;
+        }
+        &__card {
+            padding: 0;
+        }
+        &__timerTitle {
+            margin: 15px 0 10px;
+            font-size: 15px;
+        }
+        &__timerItem {
+            height: 27px;
+            width: 40px;
+            padding-top: 10px;
+        }
+        &__timerName {
+            display: none;
+        }
+        &__num {
+            font-size: 14px;
+        }
+        &__button {
+            margin-top: 20px;
+        }
+    }
+}
+@media screen and (max-width: 320px) {
+    .rightSideBar {   
+        &__hideCart,
+        &__hideRegister,
+        &__hideNumber {
+            top: 50px;
+            right: 0px;
+            padding: 33px 30px 0 29px;
+            &Bg {
+                width: 0;
+                height: 0;
+            }
+        }
+    }
+    .header {
+        &__search {
+            align-items: center;
+            margin: 2px 0 3px 0;
+            .searchInput {
+                padding: 19px 0 17px 20px;
+                background:transparent;
+                width: 204px;
+            }        
+        }
+    }
+    .footer__submit {
+        &-box {
+            max-width: 280px;
+        }
+        &-form {
+            input {
+                width: 256px;
+            }
+            button {
+                width: 280px;
+            }
+        }
+    }
+}
