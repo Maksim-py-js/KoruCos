@@ -11,14 +11,14 @@
             }
         }
     }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 850px;
-            flex-wrap: wrap;
-            height: 100vh;
-            .column {
-                width: 33%;
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 850px;
+                    }
+                }
             }
         }
     }
@@ -42,17 +42,6 @@
             ul.sub-menu,
             .button  {
                 max-width: 1240px;
-            }
-        }
-    }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 850px;
-            flex-wrap: wrap;
-            height: 100vh;
-            .column {
-                width: 33%;
             }
         }
     }
@@ -85,17 +74,6 @@
             }
         }
     }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 850px;
-            flex-wrap: wrap;
-            height: 100vh;
-            .column {
-                width: 33%;
-            }
-        }
-    }
     .mainSlider {
         max-width: 1160px;
         width: 100%;
@@ -125,6 +103,17 @@
             ul.sub-menu,
             .button {
                 max-width: 1046px;
+            }
+        }
+    }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 750px;
+                    }
+                }
             }
         }
     }
@@ -191,6 +180,17 @@
             display: none;
         }
     }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 600px;
+                    }
+                }
+            }
+        }
+    }
     .mainSlider {
         margin: 20px auto;
         padding: 40px 20px 0 20px;
@@ -218,17 +218,6 @@
         max-width: 854px;
         &__card {
             max-width: 390px;
-        }
-    }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 600px;
-            flex-wrap: wrap;
-            height: 100%;
-            .column {
-                width: 50%;
-            }
         }
     }
     .footer {
@@ -282,6 +271,15 @@
         display: none;
     }
     .rightSideBar {  
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 460px;
+                    }
+                }
+            }
+        }
         &__hideCart,
         &__hideRegister,
         &__hideNumber {
@@ -301,17 +299,6 @@
         }
         &__number {
             display: block;
-        }
-    }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 460px;
-            flex-wrap: wrap;
-            height: 100%;
-            .column {
-                width: 460px;
-            }
         }
     }
     .footer {
@@ -447,14 +434,6 @@
             max-width: 370px;
         }
     }
-    .rightSidebar__hideMenu-items {
-        .row {
-            width: 460px;
-            .column {
-                width: 460px;
-            }
-        }
-    }
     .footer {
         &__box {
             max-width: 800px;
@@ -492,10 +471,16 @@
             max-width: 330px;
         }
     }
-    .leftSideBar {
-        display: none;
-    }
     .rightSideBar {  
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 360px;
+                    }
+                }
+            }
+        }
         &__hideCart,
         &__hideRegister,
         &__hideNumber {
@@ -515,17 +500,6 @@
         }
         &__number {
             display: block;
-        }
-    }
-    .rightSidebar__hideMenu-items {
-        .row {
-            min-width: 100px;
-            width: 360px;
-            flex-wrap: wrap;
-            height: 100%;
-            .column {
-                width: 360px;
-            }
         }
     }
     .footer {
@@ -704,40 +678,19 @@
 @media screen and (max-width: 720px) {
     .header {
         &__top {
-            max-width: 630px;
-        }
-    }
-    .mainSlider {
-        max-width: 630px;
-    }
-    .footer {
-        &__box {
-            max-width: 620px;
-        }
-        &__submit {
-            margin-bottom: 60px;
-            &-box {
-                margin: 0 auto 0 0;
-                max-width: 668px;
-            }
-            &-form {
-                margin: 37px auto 0 0;
-                input {
-                    width: 158px;
-                }
-                button {
-                    width: 158px;
-        
-                }
-            }
-        }
-    }
-}
-@media screen and (max-width: 720px) {
-    .header {
-        &__top {
             max-width: 600px;
         }        
+    }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 340px;
+                    }
+                }
+            }
+        }
     }
     .mainSlider {
         max-width: 600px;
@@ -769,6 +722,17 @@
     .header {
         &__top {
             max-width: 550px;
+        }
+    }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 290px;
+                    }
+                }
+            }
         }
     }
     .mainSlider {
@@ -843,6 +807,17 @@
             margin-top: 20px;
         }
     }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 279px;
+                    }
+                }
+            }
+        }
+    }
     .about {
         margin: 50px 0;
         &__card {
@@ -911,6 +886,17 @@
             }        
         }
     }
+    .rightSideBar {
+        &__hideMenu-wp {
+            ul.menu {
+                li {
+                    ul.sub-menu {
+                        width: 220px;
+                    }
+                }
+            }
+        }
+    }
     .mainSlider {
         max-width: 500px;
     }
@@ -953,7 +939,7 @@
             height: 0;
             width: 0;   
         }
-        &__hideMenu {
+        &__hideMenu-wp {
             display: none;
             position: absolute;
             top: 50px;
@@ -962,22 +948,17 @@
             width: 100%;    
             height: 100%;
             z-index: 500;
-            ul {
+            ul.menu {
                 background: #00a29a;
                 li {
                     align-items: center;
                     display: flex;
                     flex-wrap: wrap;
-                    &:hover {
-                        background: #fff;
-                        a {
-                            color: #0aa198;
-                        }
-                        .rightSidebar__hideMenu-items {
-                            display: block;
-                        }
-                    }
                     a {
+                        width: 100%;
+                    }
+                    ul.sub-menu {
+                        position: static;
                         width: 100%;
                     }
                 }
@@ -995,10 +976,12 @@
         }
         &__hideCart,
         &__hideNumber {
+            position: absolute;
             top: 50px;
             right: 0px;
             padding: 33px 30px 0 29px;
             &Bg {
+                position: absolute;
                 top: 50px;
                 left: 0;
             }
@@ -1010,19 +993,6 @@
         .compare-top {
             padding-right: 20px;
             padding-left: 10px;
-        }
-    }
-    .rightSidebar__hideMenu-items {
-        .row {
-            position: static;
-            width: 100%;
-            height: 100%;
-            .column {
-                width: 100%;
-                ul {
-                    background:  white; 
-                }
-            }
         }
     }
     .header {

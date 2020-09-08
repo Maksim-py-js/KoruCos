@@ -638,62 +638,6 @@ button {
   display: none;
 }
 
-.rightSideBar__hideMenu {
-  display: none;
-  position: fixed;
-  top: 0;
-  right: 50px;
-  background: #00a29a;
-  width: 310px;
-  height: 100%;
-  z-index: 500;
-}
-
-.rightSideBar__hideMenu ul {
-  margin: 0;
-  padding: 0;
-  padding-top: 20px;
-  position: relative;
-}
-
-.rightSideBar__hideMenu ul li {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.rightSideBar__hideMenu ul li:hover {
-  background: #fff;
-}
-
-.rightSideBar__hideMenu ul li:hover a {
-  color: #726a6c;
-}
-
-.rightSideBar__hideMenu ul li:hover .rightSidebar__hideMenu-items {
-  display: block;
-}
-
-.rightSideBar__hideMenu ul li a {
-  text-decoration: none;
-  width: 100%;
-  padding: 17px 0 13px 21px;
-  color: #fff;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.rightSideBar__hideMenu ul li a img {
-  margin-left: 10px;
-}
-
 .rightSideBar__hideMenu-wp {
   display: none;
   position: fixed;
@@ -732,6 +676,8 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li:hover ul.sub-menu ul.sub-menu {
@@ -741,7 +687,6 @@ button {
 
 .rightSideBar__hideMenu-wp ul.menu li a {
   text-decoration: none;
-  width: 100%;
   padding: 17px 0 13px 21px;
   color: #fff;
   -webkit-box-align: center;
@@ -761,13 +706,11 @@ button {
   position: absolute;
   top: 0;
   right: 310px;
-  min-width: 980px;
-  width: 100%;
-  height: 100vh;
+  width: 1080px;
   background: white;
-  margin: 0;
   font-size: 17px;
   color: #716a6c;
+  padding-bottom: 40px;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu a:hover {
@@ -775,8 +718,8 @@ button {
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li {
-  height: 50px;
-  width: 25%;
+  width: 280px;
+  padding: 40px 40px 0 40px;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li:hover {
@@ -785,6 +728,7 @@ button {
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li a {
+  padding: 0;
   color: #716a6c;
 }
 
@@ -794,13 +738,14 @@ button {
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li ul.sub-menu {
   position: static;
-  height: 250px;
-  padding: 0;
   min-width: 0;
   width: 100%;
+  padding: 0;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li ul.sub-menu li {
+  padding: 0;
+  margin: 16px 0 0 23px;
   list-style: outside;
   width: 100%;
   color: #b6b2b3;

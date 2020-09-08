@@ -536,46 +536,6 @@ button {
         z-index: 450;   
         display: none;
     }
-    &__hideMenu {
-        display: none;
-        position: fixed;
-        top: 0;
-        right: 50px;
-        background: #00a29a;
-        width: 310px;
-        height: 100%;
-        z-index: 500;
-        ul {
-            margin: 0;
-            padding: 0;
-            padding-top: 20px;
-            position: relative;
-            li {
-                align-items: center;
-                display: flex;
-                &:hover {
-                    background: #fff;
-                    a {
-                        color: #726a6c;
-                    }
-                    .rightSidebar__hideMenu-items {
-                        display: block;
-                    }
-                }
-                a {
-                    text-decoration: none;
-                    width: 100%;
-                    padding: 17px 0 13px 21px;
-                    color: #fff;
-                    align-items: center;
-                    display: flex;
-                    img {
-                        margin-left: 10px;
-                    }
-                }
-            }
-        }
-    }
     &__hideMenu-wp {
         display: none;
         position: fixed;
@@ -601,6 +561,7 @@ button {
                     ul.sub-menu {
                         display: block;
                         display: flex;
+                        flex-wrap: wrap;
                         ul.sub-menu {
                             position: static;
                             display: block;
@@ -609,7 +570,6 @@ button {
                 }
                 a {
                     text-decoration: none;
-                    width: 100%;
                     padding: 17px 0 13px 21px;
                     color: #fff;
                     align-items: center;
@@ -619,32 +579,30 @@ button {
                     }
                 }
                 ul.sub-menu {
-                    display: none;
-        
+                    display: none;        
                     position: absolute;
                     top: 0;
                     right: 310px;
-                    min-width: 980px;
-                    width: 100%;
-                    height: 100vh;
-        
+                    width: 1080px;
+                    // height: 100vh;        
                     background:  white; 
-                    margin: 0;
                     font-size: 17px;
-                    color: #716a6c; 
+                    color: #716a6c;
+                    padding-bottom: 40px;
                     a {
                         &:hover {
                             color: #0aa198;
                         } 
                     }
                     li { 
-                        height: 50px;
-                        width: 25%;  
+                        width: 280px;
+                        padding: 40px 40px 0 40px; 
                         &:hover {
                             color: #0aa198;
                             background: transparent;
                         } 
                         a {
+                            padding: 0;
                             color: #716a6c;
                             &:hover {
                                 color: #0aa198;
@@ -652,11 +610,12 @@ button {
                         }
                         ul.sub-menu {
                             position: static;
-                            height: 250px;
-                            padding: 0;
                             min-width: 0;
                             width: 100%;
+                            padding: 0;
                             li {
+                                padding: 0;
+                                margin: 16px 0 0 23px;
                                 list-style: outside;
                                 width: 100%;
                                 color: #b6b2b3;
