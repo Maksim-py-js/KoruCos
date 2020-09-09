@@ -556,7 +556,7 @@
         max-width: 670px;
     }
     .box {
-        max-width: 1040px;
+        max-width: 670px;
     }
     .advantages {
         &__box {
@@ -569,8 +569,12 @@
         }
     }
     .services {
+        &__wrapper.box {
+            max-width: 670px;
+        }
         &__card {
             width: calc(100% / 2 - 40px);
+            margin: 10px;
         }
         &__button {
             padding: 20px 0;
@@ -579,12 +583,12 @@
     }
     .about {
         &__box {
-            max-width: 1040px;
+            max-width: 670px;
         }
     }
     .stock {
         &__box {
-            max-width: 1040px;
+            max-width: 670px;
         }
         &__button {
             grid-row-start: 13;
@@ -1214,9 +1218,6 @@
             width: 100%;  
             margin: 10px;
         }
-        &__button {
-            width: 100%;
-        }
         &__item {
             display: none;
         }
@@ -1381,9 +1382,6 @@
             max-width: 320px;
             width: 100%;  
             margin: 10px;
-        }
-        &__button {
-            width: 100%;
         }
         &__item {
             display: none;

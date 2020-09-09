@@ -211,6 +211,7 @@ get_header();
 					</button>
 				</div>	
 				<div class="hr"></div>
+<<<<<<< HEAD
 				<div class="popular__slider">
 					<div class="popular__item">
 						<div class="popular__image">
@@ -316,6 +317,117 @@ get_header();
 						<strike class="popular__sale">555 р.</strike>
 						<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 					</div>					
+=======
+				<div class="popular__wrapper">
+					<div class="popular__slideButtonPrev">‹</div>
+					<div class="popular__slider">
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+						<div class="popular__item">
+							<div class="popular__image">
+								<div class="popular__itemHover">
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="popular__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+							</div>
+							<p class="popular__price">924 р.</p>
+							<strike class="popular__sale"><span class="popular__saleText">1555 р.</span></strike>
+							<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
+						</div>
+					</div>
+					<div class="popular__slideButtonNext">›</div>
+>>>>>>> a132d8611a0365827c5f07fcd0dc51e2890fadd8
 				</div>
 			</div>
 		</div>
@@ -333,151 +445,155 @@ get_header();
 					</button>
 				</div>	
 				<div class="hr"></div>
-				<div class="newItems__slider">
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+				<div class="newItems__wrapper">
+					<div class="newItems__slideButtonPrev">‹</div>
+					<div class="newItems__slider">
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
-					<div class="newItems__item">
-						<div class="newItems__image">
-							<div class="newItems__itemHover">
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
-								<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+						<div class="newItems__item">
+							<div class="newItems__image">
+								<div class="newItems__itemHover">
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+									<button class="newItems__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
+								</div>
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
 							</div>
-							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide2.png" alt="Img">
+							<p class="newItems__price">924 р.</p>
+							<strike class="newItems__sale"><span class="newItems__saleText">1555 р.</span></strike>
+							<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 						</div>
-						<p class="newItems__price">924 р.</p>
-						<strike class="newItems__sale">555 р.</strike>
-						<p class="newItems__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
 					</div>
-				</div>
+					<div class="newItems__slideButtonNext">›</div>
+				</div>	
 			</div>
 		</div>
 		<div class="stock">
@@ -596,6 +712,10 @@ get_header();
 							</div>
 						</div>
 					</div>
+					<div class="stock__sldeButtons">
+						<div class="stock__slideButtonPrev">‹</div>
+						<div class="stock__slideButtonNext">›</div>
+					</div>	
 				</div>
 				<button class="stock__button">Подробнее</button>
 			</div>
@@ -610,7 +730,12 @@ get_header();
 					<div class="sponsor__item"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/sponsor6.png" alt="Img"></div>
 					<div class="sponsor__item"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/sponsor5.png" alt="Img"></div>
 				</div>
-				<div class="hr"></div>
+				<div class="sponsor__hr">
+					<div class="sponsor__slideButtons">
+						<div class="sponsor__slideButtonPrev">‹</div>
+						<div class="sponsor__slideButtonNext">›</div>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="about">
@@ -636,7 +761,11 @@ get_header();
 		</div>
 		<div class="reviews">
 			<div class="box">
-				<div class="hr"></div>
+				<div class="reviews__hr">
+					<div class="reviews__img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/icons/quotes.png" alt='"'>
+					</div>
+				</div>
 				<div class="reviews__top">
 					<h2 class="reviews__title">
 						Отзывы 
@@ -663,8 +792,8 @@ get_header();
 							</div>
 						</div>
 					</div>
-					 <div class="reviews__item">
-						<div class="reviews__message comment dialog">
+					<div class="reviews__item">
+						<div class="reviews__message">
 							<!-- <div class="reviews__messageImage">
 								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/message.png" alt="Img">
 							</div> -->
@@ -681,7 +810,7 @@ get_header();
 						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__message comment dialog">
+						<div class="reviews__message">
 							<!-- <div class="reviews__messageImage">
 								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/message.png" alt="Img">
 							</div> -->
@@ -698,7 +827,7 @@ get_header();
 						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__message comment dialog">
+						<div class="reviews__message">
 							<!-- <div class="reviews__messageImage">
 								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/message.png" alt="Img">
 							</div> -->
@@ -715,7 +844,24 @@ get_header();
 						</div>
 					</div>
 					<div class="reviews__item">
-						<div class="reviews__message comment dialog">
+						<div class="reviews__message">
+							<!-- <div class="reviews__messageImage">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/message.png" alt="Img">
+							</div> -->
+							<p class="reviews__textMessage">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+						<div class="reviews__messageData">
+							<div class="reviews__icon">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/quotes.png" alt="Img">
+							</div>
+							<div class="reviews__dataText">
+								<p class="reviews__userName">Лариса Шварц</p>
+								<p class="reviews__data">27.01.20</p>
+							</div>
+						</div>
+					</div>
+					<div class="reviews__item">
+						<div class="reviews__message">
 							<!-- <div class="reviews__messageImage">
 								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/message.png" alt="Img">
 							</div> -->
@@ -749,7 +895,12 @@ get_header();
 						</div>
 					</div>
 				</div>
-				<div class="hr"></div>
+				<div class="reviews__hr">
+					<div class="reviews__slideButtons">
+						<div class="reviews__slideButtonPrev">‹</div>
+						<div class="reviews__slideButtonNext">›</div>
+					</div>
+				</div>
 			</div>
 		</div>			
 		<div class="articles">

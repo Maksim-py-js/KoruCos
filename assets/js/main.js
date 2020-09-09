@@ -5,7 +5,8 @@ $('.popular__slider, .products').slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-
+  prevArrow: '.popular__slideButtonPrev',
+  nextArrow: '.popular__slideButtonNext',
   responsive: [
     {
       breakpoint: 1024,
@@ -34,8 +35,10 @@ $('.newItems__slider').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 2,
-  arrows: false,
+  // arrows: false,
   dots: true,
+  prevArrow: '.newItems__slideButtonPrev',
+  nextArrow: '.newItems__slideButtonNext',
 
   responsive: [
     {
@@ -91,8 +94,10 @@ $('.instagram__items').slick({
 });
 
 $('.stock__sliders').slick({
-  arrows: false,
+  // arrows: false,
   autoplay: true,
+  prevArrow: '.stock__slideButtonPrev',
+  nextArrow: '.stock__slideButtonNext',
 
   responsive: [
     {
@@ -104,22 +109,24 @@ $('.stock__sliders').slick({
   ]
 });
 
-// $('.sponsor__items').slick({
-//   infinite: true,
-//   slidesToShow: 4,
-//   slidesToScroll: 2,
-//   arrows: false,
-//   dots: true,
+$('.sponsor__items').slick({
+  infinite: true,
+  slidesToShow: 4,
+  slidesToScroll: 2,
+  // arrows: false,
+  // dots: true,
+  prevArrow: '.sponsor__slideButtonPrev',
+  nextArrow: '.sponsor__slideButtonNext',
 
-//   responsive: [
-//     {
-//       breakpoint: 700,
-//       settings: {
-//         slidesToShow: 1,
-//       }
-//     }
-//   ]
-// });
+  responsive: [
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+});
 
 
 
@@ -128,7 +135,10 @@ $('.articles__slider').slick({
   infinite: true,
   slidesToShow: 2,
   slidesToScroll: 1,
+  dots: true,
   // autoplay: true,
+  prevArrow: '.articles__slideButtonPrev',
+  nextArrow: '.articles__slideButtonNext',
 
   responsive: [
     {
@@ -144,11 +154,14 @@ $('.articles__slider').slick({
 
 
 $('.reviews__items').slick({
-  arrows: false,
+  // arrows: false,
   infinite: true,
   slidesToShow: 3,
   slidesToScroll: 2,
-  dots: true,
+  dots: false,
+  prevArrow: '.reviews__slideButtonPrev',
+  nextArrow: '.reviews__slideButtonNext',
+
 
   responsive: [
     {
