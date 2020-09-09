@@ -315,9 +315,12 @@ get_header();
 						<p class="popular__price">924 р.</p>
 						<strike class="popular__sale">555 р.</strike>
 						<p class="popular__about">Крем для глаз The Face Shop Calendula Essential Moisture Eye Cream</p>
-					</div>
+					</div>					
 				</div>
 			</div>
+		</div>
+		<div class="cart">
+			<?php echo do_shortcode('[products_slider]'); ?>
 		</div>
 		<div class="newItems">
 			<div class="box">

@@ -1,4 +1,4 @@
-$('.popular__slider').slick({
+$('.popular__slider, .products').slick({
   arrows: false,
   dots: true,
   slidesToShow: 4,
