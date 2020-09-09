@@ -72,8 +72,11 @@ button {
             border-bottom: 1px solid #eae9e9;
             padding: 14px 0 12px 39px;
             background:transparent url(../img/png/search.png) no-repeat 0 50%;
+            color: #716a6c;
+            font-family: "Montserrat";
             font-size: 12px;
-            color: #b8b4b5;
+            font-weight: 400;
+            letter-spacing: 0.14px;
             outline: none;
             width: 560px;
         }        
@@ -86,7 +89,7 @@ button {
             line-height: 38px;
             border: none;
             margin-left: -4px;
-            height: 40px;
+            height: 41px;
             background: #716a6c url(../img/png/advancedSearch.png) no-repeat 50% 50%;
             cursor: pointer;
             &:hover {
@@ -94,6 +97,21 @@ button {
                 .hideMenu {
                     display: block;
                 }
+            }
+            .title {
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 22px;
+                font-weight: bold;
+                letter-spacing: 0.44px;
+            }
+            .name {
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.15px;
             }
             .hideMenu {
                 display: none;
@@ -137,6 +155,8 @@ button {
             font-size: 13px;
             margin-left: -4px;
             cursor: pointer;
+            font-family: "Montserrat";
+            letter-spacing: 0.32px;
         }
     }
     &__nav {
@@ -154,14 +174,18 @@ button {
             }            
             a {                
                 text-decoration: none;
-                color: #716a6c;
-                text-transform: uppercase;
-                font-weight: bold;
                 padding: 0 0 0 20px;
-                font-size: 13px;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.32px;
+                &:hover {
+                    color: #d87171;
+                }
             }
             .danger {
-                color: #d87171;
                 padding-right: 20px;
             }
         }
@@ -210,6 +234,7 @@ button {
                     ul.sub-menu {
                         display: block;
                         display: flex;
+                        flex-wrap: wrap;
                         a {
                             color: #716a6c; 
                             &:hover {
@@ -240,8 +265,11 @@ button {
                 }
                 a {
                     text-decoration: none;
-                    font-size: 17px;
-                    color: #716a6c;   
+                    color: #716a6c; 
+                    font-family: "Montserrat";
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 0.16px;  
                     cursor: pointer; 
                     &:after {
                         content: "";
@@ -267,7 +295,7 @@ button {
             max-width: 1400px;
             background: #fff;                        
             z-index: 450;
-            padding: 35px 0 135px 0;
+            padding: 35px 40px 135px 40px;
             a {
                 &:after {
                     content: "";
@@ -277,7 +305,8 @@ button {
                 }
             }
             li {
-                width: 25%;
+                width: calc(25% - 30px);
+                margin-bottom: 35px;
                 a {
                     &:after {
                         content: "";
@@ -340,12 +369,15 @@ button {
             align-items: center;
             width: 500px;
             a {
-                color: #716a6c;
-                font-size: 12px;
                 text-decoration: none;
-                text-transform: uppercase;
                 margin-right: 10px;
                 margin-left: 10px;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.6px;
             }
         }
         .close {
@@ -396,9 +428,9 @@ button {
         .block {
             .title {
                 color: #716a6c;
-                font-family: "Montserrat - Semi Bold";
+                font-family: "Montserrat";
                 font-size: 13px;
-                font-weight: 400;
+                font-weight: bold;
                 line-height: 20px;
                 text-transform: uppercase;
                 letter-spacing: 0.65px;
@@ -409,7 +441,7 @@ button {
             .a,
             .text {
                 color: #716a6c;
-                font-family: Montserrat;
+                font-family: "Montserrat";
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
@@ -418,51 +450,6 @@ button {
                 padding-bottom: 9px;
                 padding-top: 9px;
                 max-width: 280px;
-            }
-        }
-    }
-}
-
-.rightSidebar__hideMenu-items {
-    display: none;
-    .row {
-        position: absolute;
-        top: 0;
-        right: 310px;
-        min-width: 1080px;
-        width: 100%;
-        background:  white; 
-        display: flex;
-        height: 100vh;
-        .column {
-            width: 33%;
-            ul {
-                display: block;
-                margin: 35px 0 0 0;
-                font-size: 17px;
-                color: #716a6c; 
-                width: 100%;
-                padding: 0;
-                a {
-                    &:hover {
-                        color: #0aa198;
-                    } 
-                }
-                li {
-                    list-style: outside;
-                    margin: 16px 0 0 20px;
-                    color: #b6b2b3;
-                    &:hover {
-                        color: #0aa198;
-                        background: transparent;
-                    } 
-                    a {
-                        color: #b6b2b3;
-                        &:hover {
-                            color: #0aa198;
-                        } 
-                    }
-                }
             }
         }
     }
@@ -493,9 +480,6 @@ button {
                 padding: 0;
                 align-items: center;
                 vertical-align: middle;
-            }
-            .menu-top {
-                
             }
         }
     }
@@ -535,7 +519,14 @@ button {
         opacity: .54; 
         z-index: 450;   
         display: none;
-    }
+    }    
+    ::-webkit-scrollbar { width: 3px; height: 3px;}
+    ::-webkit-scrollbar-button {  background-color: #fff; }
+    ::-webkit-scrollbar-track {  background-color: #00a29a;}
+    ::-webkit-scrollbar-track-piece { background-color: #fff;}
+    ::-webkit-scrollbar-thumb { max-height: 50px; background-color: #00a29a; border-radius: 3px;}
+    ::-webkit-scrollbar-corner { background-color: #00a29a;}
+    ::-webkit-resizer { background-color: #fff;}
     &__hideMenu-wp {
         display: none;
         position: fixed;
@@ -574,22 +565,28 @@ button {
                     color: #fff;
                     align-items: center;
                     display: flex;
+                    font-family: "Montserrat";
+                    font-size: 16px;
+                    font-weight: 400;
+                    letter-spacing: 0.16px;
                     img {
                         margin-left: 10px;
                     }
                 }
-                ul.sub-menu {
+                ul.sub-menu {                    
+                    overflow: auto;
                     display: none;        
                     position: absolute;
                     top: 0;
                     right: 310px;
                     width: 1080px;
-                    // height: 100vh;        
+                    height: 100%;       
                     background:  white; 
                     font-size: 17px;
                     color: #716a6c;
                     padding-bottom: 40px;
                     a {
+                        color: #716a6c;
                         &:hover {
                             color: #0aa198;
                         } 
@@ -609,10 +606,12 @@ button {
                             } 
                         }
                         ul.sub-menu {
+                            overflow: hidden;
                             position: static;
                             min-width: 0;
                             width: 100%;
                             padding: 0;
+                            max-height: auto;
                             li {
                                 padding: 0;
                                 margin: 16px 0 0 23px;
@@ -649,13 +648,20 @@ button {
             display: flex;
             align-items: center;
             .title {
-                font-size: 20px;
-                color: #726a6c;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 24px;
                 font-weight: bold;
+                letter-spacing: 0.48px;
                 margin-right: 20px;
             }
             a {
-                color: #00a29a;
+                color: #0aa198;
+                font-family: "Montserrat";
+                font-size: 13px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.65px;
             }
         }
         .products {
@@ -674,6 +680,13 @@ button {
                         object-position: 50% 50%;
                         object-fit: cover;
                     }
+                }
+                .description {
+                    opacity: 0.7;
+                    color: #716a6c;
+                    font-family: "Montserrat";
+                    font-size: 15px;
+                    font-weight: 400;
                 }
                 .right {
                     width: 190px;
@@ -694,8 +707,9 @@ button {
                     }
                 }
                 .price {
-                    color: #726a6c;
-                    font-size: 20px;
+                    color: #716a6c;
+                    font-family: "Montserrat";
+                    font-size: 18px;
                     font-weight: bold;
                 }
             }
@@ -704,16 +718,21 @@ button {
             margin-top: 25px;
             margin-bottom: 25px;
             .title {
-                font-size: 18px;
-                color: #9a9495;
+                opacity: 0.7;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 15px;
             }
             .price {
-                color: #726a6c;
-                font-size: 20px;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 18px;
                 font-weight: bold;
             }
         }   
         .buttons {
+            height: 100%;
+            max-height: 215px;
             button {
                 width: 100%;
                 margin: 5px 0;
@@ -721,10 +740,16 @@ button {
                 border: none;
                 background: #00a29a;
                 color: #fff;
+                font-family: "Montserrat";
+                font-size: 13px;
                 font-weight: bold;
                 text-transform: uppercase;
+                letter-spacing: 0.29px;
+                border: 1px solid #00a29a;
                 &:hover {
                     color: #726a6c;
+                    border: 1px solid rgba(113, 106, 108, 0.5);
+                    background-color: transparent;
                 }
             }
         }
@@ -732,13 +757,15 @@ button {
     &__hideCart,
     &__hideRegister,
     &__hideNumber {
+        overflow: auto;
         display: none;
         position: fixed;
         top: 0;
         right: 50px;
         background: #f4f4f2;
         width: 271px;
-        height: calc(100% - 33px);
+        min-height: 100vh;
+        height: 100%;
         z-index: 500;
         padding: 33px 30px 0 29px;
         &Bg {
@@ -755,12 +782,16 @@ button {
         }
     }
     &__hideRegister {
-        height: calc(100% - 200px);
-        padding: 200px 30px 0 29px;
+        max-height: 100vh;
+        height: 100%;
+        padding: 0 30px 0 29px;
         .title {
-            font-size: 20px;
-            color: #726a6c;
+            margin-top: 200px;
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 24px;
             font-weight: bold;
+            letter-spacing: 0.48px;
             margin-right: 20px;
             margin-bottom: 15px;
         }
@@ -771,24 +802,37 @@ button {
                 padding: 20px;
                 width: 230px;
                 outline: none;
+                opacity: 0.55;
+                color: #716a6c;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+                letter-spacing: 0.15px;
             }
         }
         button {
             border: none;
             width: 100%;
             background: #00a29a;
-            color: #fff;
-            text-transform: uppercase;
+            color: #ffffff;
+            font-family: "Montserrat";
+            font-size: 13px;
             font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.29px;
             padding: 20px 0;
             margin: 5px 0 20px 0;
         }
         .link {
             margin: 8px 0;
             a {
-                text-transform: uppercase;
-                color: #726a6c;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 13px;
                 font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 0.29px;
                 &:hover {
                     color: #00a29a;
                 }
@@ -799,16 +843,27 @@ button {
             margin-bottom: 18px;
             .sub-title {
                 margin-bottom: 15px;
-                color: #726a6c;
-                font-size: 20px;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.3px;
             }
         }
         .confirm {
+            padding-bottom: 30px;
             padding-top: 18px;
-            color: #9a9495;
-            font-size: 19px;
+            opacity: 0.7;
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 15px;
+            letter-spacing: 0.3px;
             a {
-                color: #726a6c;
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: bold;
+                letter-spacing: 0.3px;
             }
         }
     }
@@ -857,11 +912,14 @@ button {
                 margin: 0;
                 background: transparent;
                 color: #fff;
-                font-size: 12px;
                 text-decoration: none;
-                text-transform: uppercase;
                 height: 50px;
                 padding: 0 20px;
+                font-family: "Montserrat";
+                font-size: 12px;
+                font-weight: 400;
+                text-transform: uppercase;
+                letter-spacing: 0.27px;
             }
         }
     }
@@ -876,7 +934,7 @@ button {
         margin: 0;
         a {
             color: #ffffff;
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 12px;
             font-weight: 400;
             text-transform: uppercase;
@@ -909,7 +967,7 @@ button {
         .block {
             .title {
                 color: #716a6c;
-                font-family: "Montserrat - Semi Bold";
+                font-family: "Montserrat";
                 font-size: 13px;
                 font-weight: bold;
                 line-height: 20px;
@@ -922,7 +980,7 @@ button {
             .a,
             .text {
                 color: #716a6c;
-                font-family: Montserrat;
+                font-family: "Montserrat";
                 font-size: 16px;
                 font-weight: 400;
                 line-height: 20px;
@@ -1941,7 +1999,7 @@ button {
         margin: 0;
         opacity: 0.5;
         color: #716a6c;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-size: 13px;
         font-weight: 400;
         line-height: 20px;
@@ -1999,7 +2057,7 @@ button {
     &__subtitle {
         opacity: 0.7;
         color: #716a6c;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-size: 15px;
         font-weight: 400;
         line-height: 20px;
@@ -2046,7 +2104,7 @@ button {
         &-title {
             margin-top: 68px;
             color: #716a6c;
-            font-family: "Montserrat - Semi Bold";
+            font-family: "Montserrat";
             font-size: 30px;
             font-weight: 400;
             letter-spacing: 0.6px;
@@ -2054,7 +2112,7 @@ button {
         &-subTitle {
             opacity: 0.7;
             color: #716a6c;
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 15px;
             font-weight: 400;
             line-height: 20px;
@@ -2076,7 +2134,7 @@ button {
                 background-color: #0aa198;
                 padding: 20px 0 19px 0;
                 color: #ffffff;
-                font-family: "Montserrat - Semi Bold";
+                font-family: "Montserrat";
                 font-size: 14px;
                 font-weight: 400;
                 text-transform: uppercase;
@@ -2129,7 +2187,7 @@ button {
                 margin-bottom: 23px;
                 a {
                     color: #ffffff;
-                    font-family: Montserrat;
+                    font-family: "Montserrat";
                     font-size: 16px;
                     font-weight: 400;
                     letter-spacing: 0.16px;
@@ -2147,7 +2205,7 @@ button {
     &__title {
         opacity: 0.85;
         color: #ffffff;
-        font-family: "Montserrat - Semi Bold";
+        font-family: "Montserrat";
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 0.36px;
@@ -2155,7 +2213,7 @@ button {
     &__subTitle {
         opacity: 0.7;
         color: #ffffff;
-        font-family: Montserrat;
+        font-family: "Montserrat";
         font-size: 15px;
         font-weight: 400;
         line-height: 20px;
@@ -2180,7 +2238,7 @@ button {
         &-text {
             margin-top: 15px;
             color: #ffffff;
-            font-family: Montserrat;
+            font-family: "Montserrat";
             font-size: 15px;
             font-weight: 400;
             line-height: 20px;
@@ -2195,11 +2253,14 @@ button {
         a {
             text-decoration: none;
             color: #ffffff;
-            font-family: "Montserrat - Semi Bold";
+            font-family: "Montserrat";
             font-size: 30px;
-            font-weight: 400;
+            font-weight: bold;
             line-height: 20px;
             text-transform: uppercase;
+        }
+        span {
+            font-weight: 400;
         }
     }
     &__sketches {

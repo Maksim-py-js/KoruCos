@@ -86,7 +86,7 @@
 					<div class="footer__copyright">
 						<div class="footer__logo">
 							<a href="/">
-								© 2020 KORUCOS
+								© 2020 KORU<span>COS</span>
 							</a>
 						</div>
 						<div class="footer__copyright-text">

@@ -99,8 +99,11 @@ button {
   border-bottom: 1px solid #eae9e9;
   padding: 14px 0 12px 39px;
   background: transparent url(../img/png/search.png) no-repeat 0 50%;
+  color: #716a6c;
+  font-family: "Montserrat";
   font-size: 12px;
-  color: #b8b4b5;
+  font-weight: 400;
+  letter-spacing: 0.14px;
   outline: none;
   width: 560px;
 }
@@ -117,7 +120,7 @@ button {
   line-height: 38px;
   border: none;
   margin-left: -4px;
-  height: 40px;
+  height: 41px;
   background: #716a6c url(../img/png/advancedSearch.png) no-repeat 50% 50%;
   cursor: pointer;
 }
@@ -128,6 +131,23 @@ button {
 
 .header__buttons .advancedSearch:hover .hideMenu {
   display: block;
+}
+
+.header__buttons .advancedSearch .title {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.44px;
+}
+
+.header__buttons .advancedSearch .name {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
 }
 
 .header__buttons .advancedSearch .hideMenu {
@@ -179,6 +199,8 @@ button {
   font-size: 13px;
   margin-left: -4px;
   cursor: pointer;
+  font-family: "Montserrat";
+  letter-spacing: 0.32px;
 }
 
 .header__nav {
@@ -206,15 +228,20 @@ button {
 
 .header__nav li a {
   text-decoration: none;
-  color: #716a6c;
-  text-transform: uppercase;
-  font-weight: bold;
   padding: 0 0 0 20px;
-  font-size: 13px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.32px;
+}
+
+.header__nav li a:hover {
+  color: #d87171;
 }
 
 .header__nav li .danger {
-  color: #d87171;
   padding-right: 20px;
 }
 
@@ -273,6 +300,8 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .header__menu-wp ul.menu li:hover ul.sub-menu a {
@@ -311,8 +340,11 @@ button {
 
 .header__menu-wp ul.menu li a {
   text-decoration: none;
-  font-size: 17px;
   color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
   cursor: pointer;
 }
 
@@ -339,7 +371,7 @@ button {
   max-width: 1400px;
   background: #fff;
   z-index: 450;
-  padding: 35px 0 135px 0;
+  padding: 35px 40px 135px 40px;
 }
 
 .header__menu-wp ul.sub-menu a:after {
@@ -350,7 +382,8 @@ button {
 }
 
 .header__menu-wp ul.sub-menu li {
-  width: 25%;
+  width: calc(25% - 30px);
+  margin-bottom: 35px;
 }
 
 .header__menu-wp ul.sub-menu li a:after {
@@ -424,12 +457,15 @@ button {
 }
 
 .leftSideBar__menu-items a {
-  color: #716a6c;
-  font-size: 12px;
   text-decoration: none;
-  text-transform: uppercase;
   margin-right: 10px;
   margin-left: 10px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
 }
 
 .leftSideBar__menu .close {
@@ -486,9 +522,9 @@ button {
 
 .leftSideBar__open .block .title {
   color: #716a6c;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 13px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: 0.65px;
@@ -500,7 +536,7 @@ button {
 .leftSideBar__open .block .a,
 .leftSideBar__open .block .text {
   color: #716a6c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -509,59 +545,6 @@ button {
   padding-bottom: 9px;
   padding-top: 9px;
   max-width: 280px;
-}
-
-.rightSidebar__hideMenu-items {
-  display: none;
-}
-
-.rightSidebar__hideMenu-items .row {
-  position: absolute;
-  top: 0;
-  right: 310px;
-  min-width: 1080px;
-  width: 100%;
-  background: white;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-}
-
-.rightSidebar__hideMenu-items .row .column {
-  width: 33%;
-}
-
-.rightSidebar__hideMenu-items .row .column ul {
-  display: block;
-  margin: 35px 0 0 0;
-  font-size: 17px;
-  color: #716a6c;
-  width: 100%;
-  padding: 0;
-}
-
-.rightSidebar__hideMenu-items .row .column ul a:hover {
-  color: #0aa198;
-}
-
-.rightSidebar__hideMenu-items .row .column ul li {
-  list-style: outside;
-  margin: 16px 0 0 20px;
-  color: #b6b2b3;
-}
-
-.rightSidebar__hideMenu-items .row .column ul li:hover {
-  color: #0aa198;
-  background: transparent;
-}
-
-.rightSidebar__hideMenu-items .row .column ul li a {
-  color: #b6b2b3;
-}
-
-.rightSidebar__hideMenu-items .row .column ul li a:hover {
-  color: #0aa198;
 }
 
 .rightSideBar__nav {
@@ -638,6 +621,37 @@ button {
   display: none;
 }
 
+.rightSideBar ::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+
+.rightSideBar ::-webkit-scrollbar-button {
+  background-color: #fff;
+}
+
+.rightSideBar ::-webkit-scrollbar-track {
+  background-color: #00a29a;
+}
+
+.rightSideBar ::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+}
+
+.rightSideBar ::-webkit-scrollbar-thumb {
+  max-height: 50px;
+  background-color: #00a29a;
+  border-radius: 3px;
+}
+
+.rightSideBar ::-webkit-scrollbar-corner {
+  background-color: #00a29a;
+}
+
+.rightSideBar ::-webkit-resizer {
+  background-color: #fff;
+}
+
 .rightSideBar__hideMenu-wp {
   display: none;
   position: fixed;
@@ -695,6 +709,10 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.16px;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li a img {
@@ -702,15 +720,21 @@ button {
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu {
+  overflow: auto;
   display: none;
   position: absolute;
   top: 0;
   right: 310px;
   width: 1080px;
+  height: 100%;
   background: white;
   font-size: 17px;
   color: #716a6c;
   padding-bottom: 40px;
+}
+
+.rightSideBar__hideMenu-wp ul.menu li ul.sub-menu a {
+  color: #716a6c;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu a:hover {
@@ -737,10 +761,12 @@ button {
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li ul.sub-menu {
+  overflow: hidden;
   position: static;
   min-width: 0;
   width: 100%;
   padding: 0;
+  max-height: auto;
 }
 
 .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu li ul.sub-menu li {
@@ -780,14 +806,21 @@ button {
 }
 
 .rightSideBar__hideCart .top .title {
-  font-size: 20px;
-  color: #726a6c;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0.48px;
   margin-right: 20px;
 }
 
 .rightSideBar__hideCart .top a {
-  color: #00a29a;
+  color: #0aa198;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
 }
 
 .rightSideBar__hideCart .products-cart {
@@ -816,6 +849,14 @@ button {
      object-fit: cover;
 }
 
+.rightSideBar__hideCart .products-cart .description {
+  opacity: 0.7;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 400;
+}
+
 .rightSideBar__hideCart .products-cart .right {
   width: 190px;
   font-size: 18px;
@@ -838,8 +879,9 @@ button {
 }
 
 .rightSideBar__hideCart .products-cart .price {
-  color: #726a6c;
-  font-size: 20px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -849,14 +891,22 @@ button {
 }
 
 .rightSideBar__hideCart .total .title {
-  font-size: 18px;
-  color: #9a9495;
+  opacity: 0.7;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
 }
 
 .rightSideBar__hideCart .total .price {
-  color: #726a6c;
-  font-size: 20px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 18px;
   font-weight: bold;
+}
+
+.rightSideBar__hideCart .buttons {
+  height: 100%;
+  max-height: 215px;
 }
 
 .rightSideBar__hideCart .buttons button {
@@ -866,22 +916,30 @@ button {
   border: none;
   background: #00a29a;
   color: #fff;
+  font-family: "Montserrat";
+  font-size: 13px;
   font-weight: bold;
   text-transform: uppercase;
+  letter-spacing: 0.29px;
+  border: 1px solid #00a29a;
 }
 
 .rightSideBar__hideCart .buttons button:hover {
   color: #726a6c;
+  border: 1px solid rgba(113, 106, 108, 0.5);
+  background-color: transparent;
 }
 
 .rightSideBar__hideCart, .rightSideBar__hideRegister, .rightSideBar__hideNumber {
+  overflow: auto;
   display: none;
   position: fixed;
   top: 0;
   right: 50px;
   background: #f4f4f2;
   width: 271px;
-  height: calc(100% - 33px);
+  min-height: 100vh;
+  height: 100%;
   z-index: 500;
   padding: 33px 30px 0 29px;
 }
@@ -900,14 +958,18 @@ button {
 }
 
 .rightSideBar__hideRegister {
-  height: calc(100% - 200px);
-  padding: 200px 30px 0 29px;
+  max-height: 100vh;
+  height: 100%;
+  padding: 0 30px 0 29px;
 }
 
 .rightSideBar__hideRegister .title {
-  font-size: 20px;
-  color: #726a6c;
+  margin-top: 200px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 24px;
   font-weight: bold;
+  letter-spacing: 0.48px;
   margin-right: 20px;
   margin-bottom: 15px;
 }
@@ -918,15 +980,25 @@ button {
   padding: 20px;
   width: 230px;
   outline: none;
+  opacity: 0.55;
+  color: #716a6c;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.15px;
 }
 
 .rightSideBar__hideRegister button {
   border: none;
   width: 100%;
   background: #00a29a;
-  color: #fff;
-  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 13px;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.29px;
   padding: 20px 0;
   margin: 5px 0 20px 0;
 }
@@ -936,9 +1008,12 @@ button {
 }
 
 .rightSideBar__hideRegister .link a {
-  text-transform: uppercase;
-  color: #726a6c;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 13px;
   font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.29px;
 }
 
 .rightSideBar__hideRegister .link a:hover {
@@ -952,18 +1027,29 @@ button {
 
 .rightSideBar__hideRegister .socials .sub-title {
   margin-bottom: 15px;
-  color: #726a6c;
-  font-size: 20px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
 }
 
 .rightSideBar__hideRegister .confirm {
+  padding-bottom: 30px;
   padding-top: 18px;
-  color: #9a9495;
-  font-size: 19px;
+  opacity: 0.7;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  letter-spacing: 0.3px;
 }
 
 .rightSideBar__hideRegister .confirm a {
-  color: #726a6c;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
 }
 
 .rightSideBar__cart, .rightSideBar__compare {
@@ -1025,11 +1111,14 @@ button {
   margin: 0;
   background: transparent;
   color: #fff;
-  font-size: 12px;
   text-decoration: none;
-  text-transform: uppercase;
   height: 50px;
   padding: 0 20px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.27px;
 }
 
 .rightSideBar__number {
@@ -1048,7 +1137,7 @@ button {
 
 .rightSideBar__number a {
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
@@ -1087,7 +1176,7 @@ button {
 
 .rightSideBar__open .block .title {
   color: #716a6c;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 13px;
   font-weight: bold;
   line-height: 20px;
@@ -1101,7 +1190,7 @@ button {
 .rightSideBar__open .block .a,
 .rightSideBar__open .block .text {
   color: #716a6c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
@@ -2298,7 +2387,7 @@ button {
   margin: 0;
   opacity: 0.5;
   color: #716a6c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 13px;
   font-weight: 400;
   line-height: 20px;
@@ -2365,7 +2454,7 @@ button {
 .articles__subtitle {
   opacity: 0.7;
   color: #716a6c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -2424,7 +2513,7 @@ button {
 .footer__submit-title {
   margin-top: 68px;
   color: #716a6c;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 0.6px;
@@ -2433,7 +2522,7 @@ button {
 .footer__submit-subTitle {
   opacity: 0.7;
   color: #716a6c;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -2460,7 +2549,7 @@ button {
   background-color: #0aa198;
   padding: 20px 0 19px 0;
   color: #ffffff;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   text-transform: uppercase;
@@ -2523,7 +2612,7 @@ button {
 
 .footer__menu ul li a {
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.16px;
@@ -2541,7 +2630,7 @@ button {
 .footer__title {
   opacity: 0.85;
   color: #ffffff;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.36px;
@@ -2550,7 +2639,7 @@ button {
 .footer__subTitle {
   opacity: 0.7;
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -2586,7 +2675,7 @@ button {
 .footer__copyright-text {
   margin-top: 15px;
   color: #ffffff;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
@@ -2601,11 +2690,15 @@ button {
 .footer__logo a {
   text-decoration: none;
   color: #ffffff;
-  font-family: "Montserrat - Semi Bold";
+  font-family: "Montserrat";
   font-size: 30px;
-  font-weight: 400;
+  font-weight: bold;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.footer__logo span {
+  font-weight: 400;
 }
 
 .footer__sketches {

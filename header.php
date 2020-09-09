@@ -57,7 +57,8 @@
 						onclick="
 							document.querySelector('#hideCart').classList.toggle('hideCart'),
 							document.querySelector('#hideCartBg').classList.toggle('hideCartBg'),
-							document.querySelector('#closeCart-top').classList.toggle('closeCart-top')
+							document.querySelector('#closeCart-top').classList.toggle('closeCart-top'),
+							document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
 						"
 					></button>
 				</div>
@@ -70,7 +71,8 @@
 						onclick="
 							document.querySelector('#hideMenu').classList.toggle('hideMenu'),
 							document.querySelector('#hideBg').classList.toggle('hideBg'),
-							document.querySelector('#closeMenu-icon-top').classList.toggle('closeMenu-icon-top')
+							document.querySelector('#closeMenu-icon-top').classList.toggle('closeMenu-icon-top'),
+							document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
 						"
 					></button>
 				</div>				
@@ -88,7 +90,7 @@
 							document.querySelector('#hideMenu').classList.toggle('hideMenu'),
 							document.querySelector('#hideBg').classList.toggle('hideBg'),
 							document.querySelector('#closeMenu-icon').classList.toggle('closeMenu-icon'),
-						document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
+							document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
 						"
 					></button>
 				</div>				
@@ -101,7 +103,7 @@
 							document.querySelector('#hideCart').classList.toggle('hideCart'),
 							document.querySelector('#hideCartBg').classList.toggle('hideCartBg'),
 							document.querySelector('#closeCart').classList.toggle('closeCart'),
-						document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
+							document.querySelector('#overflov-hidden').classList.toggle('overflov-hidden')
 						"
 					></button>
 				</div>
@@ -169,6 +171,34 @@
 					<a href="#">очистить</a>
 				</div>
 				<div class="products">
+					<div class="products-cart">
+						<div class="image">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-1.jpeg" alt="">
+						</div>
+						<div class="right">
+							<div class="description">
+								Крем для глаз The Face Shop Calendula Essential
+							</div>
+							<div class="quantity">
+								<input type="number">
+							</div>
+							<div class="price">924 р.</div>
+						</div>
+					</div>
+					<div class="products-cart">
+						<div class="image">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-2.jpeg" alt="">
+						</div>
+						<div class="right">
+							<div class="description">
+								Крем для глаз The Face Shop Calendula Essential
+							</div>
+							<div class="quantity">
+								<input type="number">
+							</div>
+							<div class="price">1894 р.</div>
+						</div>
+					</div>
 					<div class="products-cart">
 						<div class="image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-1.jpeg" alt="">
@@ -298,7 +328,7 @@
 								<div class="inputs">
 									<input class="select-price" type="number" placeholder="От">
 									<input class="select-price" type="number" placeholder="До">
-								</div>
+								</div>								
 							</div>
 							<div class="block">								
 								<div class="name">Название:</div>
@@ -348,9 +378,6 @@
 		</div>		
 		<div class="header__menu-wp">
 			<?php wp_nav_menu("menu=menu");?>
-			<div class="button">
-				<button class="points"></button>
-			</div>
 		</div>	
 	</header>
 	

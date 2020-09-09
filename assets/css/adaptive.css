@@ -209,7 +209,7 @@
   }
   .rightSideBar__hideRegister {
     height: 100%;
-    padding: 260px 30px 0 29px;
+    padding: 0 30px 0 29px;
   }
   .rightSideBar__registerButton {
     display: block;
@@ -386,7 +386,7 @@
   }
   .rightSideBar__hideRegister {
     height: 100%;
-    padding: 260px 30px 0 29px;
+    padding: 0 30px 0 29px;
   }
   .rightSideBar__registerButton {
     display: block;
@@ -782,6 +782,7 @@
     width: 100%;
     height: 100%;
     z-index: 500;
+    overflow: auto;
   }
   .rightSideBar__hideMenu-wp ul.menu {
     background: #00a29a;
@@ -803,6 +804,9 @@
     position: static;
     width: 100%;
   }
+  .rightSideBar__hideCart .buttons {
+    max-height: 265px;
+  }
   .rightSideBar__hideRegister {
     top: 50px;
     left: 0px;
@@ -823,6 +827,12 @@
     position: absolute;
     top: 50px;
     left: 0;
+  }
+  .rightSideBar__hideRegister .title {
+    margin-top: 43px;
+  }
+  .rightSideBar__hideRegister .confirm {
+    height: 150px;
   }
   .rightSideBar__cart {
     padding: 20px 20px 15px 0;
