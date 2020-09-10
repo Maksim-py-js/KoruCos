@@ -170,8 +170,8 @@
 					<div class="title">Корзина</div>
 					<a href="#">очистить</a>
 				</div>
-				<div class="products">
-					<div class="products-cart">
+				<div class="items">
+					<div class="items-cart">
 						<div class="image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-1.jpeg" alt="">
 						</div>
@@ -185,7 +185,7 @@
 							<div class="price">924 р.</div>
 						</div>
 					</div>
-					<div class="products-cart">
+					<div class="items-cart">
 						<div class="image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-2.jpeg" alt="">
 						</div>
@@ -199,7 +199,7 @@
 							<div class="price">1894 р.</div>
 						</div>
 					</div>
-					<div class="products-cart">
+					<div class="items-cart">
 						<div class="image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-1.jpeg" alt="">
 						</div>
@@ -213,7 +213,7 @@
 							<div class="price">924 р.</div>
 						</div>
 					</div>
-					<div class="products-cart">
+					<div class="items-cart">
 						<div class="image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/jpg/cart-2.jpeg" alt="">
 						</div>

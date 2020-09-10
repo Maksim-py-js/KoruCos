@@ -665,7 +665,7 @@ button {
                 letter-spacing: 0.65px;
             }
         }
-        .products {
+        .items {
             &-cart {
                 margin-top: 28px;
                 display: flex;
@@ -780,6 +780,7 @@ button {
             opacity: .54; 
             z-index: 450;   
             display: none;
+            z-index: 250;
         }
     }
     &__hideRegister {
@@ -998,49 +999,101 @@ button {
         }
     }
 }
-.cart {
+.woocomerce__slider {
+    margin-top: 70px;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    .title {
+        color: #716a6c;
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+        margin: 10px 0;
+    }
+    .more {
+        background: none;
+        border: none;
+        color: #716a6c;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        letter-spacing: 0.7px;
+        &:after {
+            content: '›';
+            color: #fff;
+            text-align: center;
+            background: #0aa198;
+            border-radius: 50%;
+            padding: 0px 6px;
+        }
+    }
+    &-slideButtonPrev,
+    &-slideButtonPrev-2 {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        z-index: 100;
+        cursor: pointer;
+        border-radius: 50%;
+        display: inline-block;
+        font-family: "Montserrat";
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        margin: 50px 2.5px 2.5px;
+        border: 2px solid #0aa198;
+        background: transparent;
+        color: #0aa198;
+        font-size: 22px;
+        font-weight: bold;
+        transition: 0.1s;
+        &:hover {
+            background: #0aa198;
+            color: #fff;
+            transition: 0.1s;
+        }  
+    }
+    &-slideButtonNext,
+    &-slideButtonNext-2 {
+        position: absolute;
+        top: 30%;
+        right: 0;
+        z-index: 100;
+        cursor: pointer;
+        border-radius: 50%;
+        display: inline-block;
+        font-family: "Montserrat";
+        width: 30px;
+        height: 30px;
+        margin: 50px 2.5px 2.5px;
+        text-align: center;
+        border: 2px solid #0aa198;
+        background: transparent;
+        color: #0aa198;
+        font-size: 22px;
+        font-weight: bold;
+        transition: 0.1s;
+        &:hover {
+            background: #0aa198;
+            color: #fff;
+            transition: 0.1s;
+        }  
+    }
+    &-wrapper {
+        position: relative;
+    }
     .woocommerce {
         ul.products {
-            margin: 0 auto;
+            margin: 40px auto;
             display: flex;
             width: 100%;
             max-width: 1200px;
             justify-content: center;
-            .slick-list {
-                width: 100%;
-            }
-            .slick-track {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            .slick-dots {
-                li.slick-active {
-                    vertical-align: middle;
-                    margin: 0;
-                    button {
-                        background: #0ba29a;
-                        color: #0ba29a;
-                        height: 7px;
-                        width: 7px;
-                        border: 1px solid #0ba29a;    
-                    }
-                }
-                li {
-                    vertical-align: middle;
-                    margin: 0;
-                    button:before {
-                        content: '';
-                    }
-                    button {
-                        background: none;
-                        border: 1px solid #716a6c;
-                        border-radius: 50%;
-                        height: 2px;
-                        width: 2px;
-                    }
-                }
-            }
             li.product {
                 width: 300px;
                 a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
@@ -1096,6 +1149,41 @@ button {
                     position: absolute;
                     top: 0;
                     left: 0%;
+                }
+            }
+            .slick-list {
+                width: 100%;
+            }
+            .slick-track {
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            .slick-dots {
+                li.slick-active {
+                    vertical-align: middle;
+                    margin: 0;
+                    button {
+                        background: #0ba29a;
+                        color: #0ba29a;
+                        height: 7px;
+                        width: 7px;
+                        border: 1px solid #0ba29a;    
+                    }
+                }
+                li {
+                    vertical-align: middle;
+                    margin: 0;
+                    button:before {
+                        content: '';
+                    }
+                    button {
+                        background: none;
+                        border: 1px solid #716a6c;
+                        border-radius: 50%;
+                        height: 2px;
+                        width: 2px;
+                    }
                 }
             }
         }
@@ -1458,7 +1546,7 @@ button {
         position: absolute;
         top: 30%;
         left: 0;
-        z-index: 1000;
+        z-index: 100;
         cursor: pointer;
         border-radius: 50%;
         display: inline-block;
@@ -1483,7 +1571,7 @@ button {
         position: absolute;
         top: 30%;
         right: 0;
-        z-index: 1000;
+        z-index: 100;
         cursor: pointer;
         border-radius: 50%;
         display: inline-block;
@@ -1696,7 +1784,7 @@ button {
         position: absolute;
         top: 30%;
         left: 0;
-        z-index: 1000;
+        z-index: 100;
         cursor: pointer;
         border-radius: 50%;
         display: inline-block;
@@ -1721,7 +1809,7 @@ button {
         position: absolute;
         top: 30%;
         right: 0;
-        z-index: 1000;
+        z-index: 100;
         cursor: pointer;
         border-radius: 50%;
         display: inline-block;
