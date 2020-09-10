@@ -1714,3 +1714,185 @@
         }
     }
 }
+// -------------------------------------------------------
+// карточка тавара
+
+@media screen and (max-width: 760px) {
+    .product {
+        &__box {
+            display: block;
+        }
+        &__rightContent {
+            max-width: 740px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__image {
+            width: calc(100% - 110px);
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 20px;
+        }
+        &__gallery {
+            max-width: 90px;
+            width: 100%;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        &__miniImage {
+            max-width: 90px;
+            width: 100%;
+            margin: 5px;
+            img {
+                width: 100%;
+            }
+        }
+        &__leftContent {
+            max-width: 740px;
+            width: 100%;
+            margin: 20px auto 0;
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .product {
+        &__leftContent {
+            max-width: calc(100% - 20px);
+            width: 100%;
+        }
+        &__gallery {
+            display: none;
+        }
+        &__image {
+            display: block;
+            max-width: 420px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__label {
+            right: 0px; 
+        }
+        // размер текста
+        &__title {
+            font-size: 18px;
+        }    
+        &__dataName {
+            font-size: 11px;
+        }
+        &__priceSum {
+            font-size: 18px;
+        }
+        &__saleText {
+            font-size: 18px;
+        }
+        &__btnCart {
+            font-size: 11px; 
+        }
+
+        &__btnOneClick {
+            font-size: 11px;
+        }
+        &__listText {
+            font-size: 13px;
+        }
+        &__discriptionText {
+            font-size: 12px;
+        }
+        &__btnEnter {
+            font-size: 11px;
+        }
+        &__input {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+        &__reviewsName {
+            font-size: 12px;
+        }
+        &__reviewsDate {
+            font-size: 10px;
+        }
+        &__reviewsText {
+            font-size: 12px;
+        }
+        &__reviewsButton {
+            font-size: 11px;
+        }
+        // ------------------------------
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .product {
+        &__btnCart {
+            display: block;
+            width: 100%;
+        }
+        &__btnOneClick {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+        }
+        &__input {
+            max-width: calc(100% - 40px);
+            width: 100%;
+        }
+        &__btnEnter {
+            width: calc(100% / 2 - 20px);
+        }
+        &__reviewsButton {
+            width: calc(100% / 2);
+        }
+        // размер текста
+        &__title {
+            font-size: 18px;
+        }    
+        &__dataName {
+            font-size: 11px;
+        }
+        &__priceSum {
+            font-size: 18px;
+        }
+        &__saleText {
+            font-size: 18px;
+        }
+        &__btnCart {
+            font-size: 11px; 
+        }
+
+        &__btnOneClick {
+            font-size: 11px;
+        }
+        &__listText {
+            font-size: 13px;
+        }
+        &__discriptionText {
+            font-size: 12px;
+        }
+        &__btnEnter {
+            font-size: 11px;
+        }
+        &__input {
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+        &__reviewsName {
+            font-size: 12px;
+        }
+        &__reviewsDate {
+            font-size: 10px;
+        }
+        &__reviewsText {
+            font-size: 12px;
+        }
+        &__reviewsButton {
+            font-size: 11px;
+        }
+        // ------------------------------
+    }
+}
