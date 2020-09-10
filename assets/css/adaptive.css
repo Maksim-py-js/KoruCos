@@ -5,11 +5,9 @@
   .header__menu-wp ul.menu,
   .header__menu-wp ul.sub-menu,
   .header__menu-wp .button {
-    max-width: 1330px;
-    width: 100%; }
+    width: 1330px; }
   .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu {
-    max-width: 850px;
-    width: 100%; }
+    width: 850px; }
   .mainSlider {
     max-width: 1330px;
     width: 100%; }
@@ -24,8 +22,7 @@
   .header__menu-wp ul.menu,
   .header__menu-wp ul.sub-menu,
   .header__menu-wp .button {
-    max-width: 1240px;
-    width: 100%; }
+    width: 1240px; }
   .mainSlider {
     max-width: 1240px;
     width: 100%; }
@@ -43,8 +40,7 @@
   .header__menu-wp ul.menu,
   .header__menu-wp ul.sub-menu,
   .header__menu-wp .button {
-    max-width: 1160px;
-    width: 100%; }
+    width: 1160px; }
   .mainSlider {
     max-width: 1160px;
     width: 100%; }
@@ -66,8 +62,7 @@
   .header__menu-wp ul.menu,
   .header__menu-wp ul.sub-menu,
   .header__menu-wp .button {
-    max-width: 1046px;
-    width: 100%; }
+    width: 1046px; }
   .rightSideBar__hideMenu-wp ul.menu li ul.sub-menu {
     max-width: 750px;
     width: 100%; }
