@@ -58,13 +58,18 @@ button {
 #overflov-hidden.overflov-hidden {
   overflow: hidden; }
 
-.header__top {
+/*.header__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 60px 0 0; }
+=======
+  padding: 60px 0 0 0;
+}
+>>>>>>> 4836d123a124ef6c410130814c387a73ecf7ce4e*/
 
 .header__search {
   display: flex;
