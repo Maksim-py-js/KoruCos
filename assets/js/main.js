@@ -2,7 +2,7 @@ $('.products').slick({
   dots: true,
   slidesToShow: 4,
   slidesToScroll: 1,
-  autoplay: true,
+  // autoplay: true,
   autoplaySpeed: 2000,
   prevArrow: '.woocomerce__slider-slideButtonPrev',
   nextArrow: '.woocomerce__slider-slideButtonNext',

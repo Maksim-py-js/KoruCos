@@ -1001,7 +1001,45 @@ button {
         }
     }
 }
-.woocomerce__slider {
+#wcpscwc-product-slider-1,
+#wcpscwc-product-slider-2 {
+    .slick-list {
+        width: 100%;
+    }
+    .slick-track {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .slick-dots {
+        li.slick-active {
+            vertical-align: middle;
+            margin: 0;
+            button {
+                background: #0ba29a !important;
+                color: #0ba29a;
+                height: 12px !important;
+                width: 12px !important;
+                border: 1px solid #0ba29a;    
+            }
+        }
+        li {
+            vertical-align: middle;
+            margin: 0;
+            button:before {
+                content: '';
+            }
+            button {
+                background: none;
+                border: 1px solid #716a6c;
+                border-radius: 50%;
+                height: 12px !important;
+                width: 12px !important;
+            }
+        }
+    }
+}
+.woocomerce__slider {    
     margin-top: 70px;
     .top {
         display: flex;
@@ -1034,11 +1072,10 @@ button {
             padding: 0px 6px;
         }
     }
-    &-slideButtonPrev,
-    &-slideButtonPrev-2 {
+    &-slideButtonNext,
+    &-slideButtonPrev{
         position: absolute;
         top: 30%;
-        left: 0;
         z-index: 100;
         cursor: pointer;
         border-radius: 50%;
@@ -1060,34 +1097,15 @@ button {
             transition: 0.1s;
         }  
     }
-    &-slideButtonNext,
-    &-slideButtonNext-2 {
-        position: absolute;
-        top: 30%;
+    &-slideButtonPrev {
+        left: 0;
+    }
+    &-slideButtonNext {
         right: 0;
-        z-index: 100;
-        cursor: pointer;
-        border-radius: 50%;
-        display: inline-block;
-        font-family: "Montserrat";
-        width: 30px;
-        height: 30px;
-        margin: 50px 2.5px 2.5px;
-        text-align: center;
-        border: 2px solid #0aa198;
-        background: transparent;
-        color: #0aa198;
-        font-size: 22px;
-        font-weight: bold;
-        transition: 0.1s;
-        &:hover {
-            background: #0aa198;
-            color: #fff;
-            transition: 0.1s;
-        }  
     }
     &-wrapper {
         position: relative;
+        
     }
     .woocommerce {
         ul.products {
@@ -1151,41 +1169,6 @@ button {
                     position: absolute;
                     top: 0;
                     left: 0%;
-                }
-            }
-            .slick-list {
-                width: 100%;
-            }
-            .slick-track {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-            }
-            .slick-dots {
-                li.slick-active {
-                    vertical-align: middle;
-                    margin: 0;
-                    button {
-                        background: #0ba29a;
-                        color: #0ba29a;
-                        height: 7px;
-                        width: 7px;
-                        border: 1px solid #0ba29a;    
-                    }
-                }
-                li {
-                    vertical-align: middle;
-                    margin: 0;
-                    button:before {
-                        content: '';
-                    }
-                    button {
-                        background: none;
-                        border: 1px solid #716a6c;
-                        border-radius: 50%;
-                        height: 2px;
-                        width: 2px;
-                    }
                 }
             }
         }

@@ -236,7 +236,7 @@ get_header();
 				</div>	
 			</div>				
 		</div>
-		<!-- <div class="popular">
+		<div class="popular">
 			<div class="box">
 				<div class="popular__top">
 					<h2 class="popular__title">
@@ -520,7 +520,7 @@ get_header();
 					<div class="newItems__slideButtonNext">›</div>
 				</div>	
 			</div>
-		</div> -->
+		</div>
 		<div class="stock">
 			<div class="stock__box">
 				<div class="stock__image">
