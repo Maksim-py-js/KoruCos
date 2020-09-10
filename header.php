@@ -360,7 +360,7 @@
 					<button class="button-search buttonDisplayNone">Искать</button>
 				</div>
 			</div>
-			<div class="header__nav">
+			<div class="header__nav" id="header__nav-hov">
 				<nav>
 					<li><a href="#" class="danger">% Акция</a></li>
 					<li><a href="#">Доставка</a></li>
@@ -371,7 +371,8 @@
 					id="adaptiveSearch-hover"
 					onclick="
 						document.querySelector('#adaptiveSearch').classList.toggle('adaptiveSearch'),
-						document.querySelector('#adaptiveSearch-hover').classList.toggle('adaptiveSearch-hover')
+						document.querySelector('#adaptiveSearch-hover').classList.toggle('adaptiveSearch-hover'),
+						document.querySelector('#header__nav-hov').classList.toggle('header__nav-hov')
 					"
 				></button>				
 			</div>

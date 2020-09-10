@@ -276,22 +276,6 @@
     body {
         border-left: none;
     }
-    #adaptiveSearch.adaptiveSearch {
-        .header {
-            &__logo {
-                display: none;
-            }
-            &__search {
-                display: block;
-                display: flex;
-            }
-            &__nav {
-                nav {
-                    display: none;
-                }
-            }
-        }
-    }
     .header {
         &__logo {
             display: block;
@@ -403,7 +387,6 @@
             }
         }
     }
-
     .stock {
         &__button {
             grid-row-start: 12;
@@ -470,22 +453,38 @@
     }
 }
 @media screen and (max-width: 950px) {
+    #adaptiveSearch.adaptiveSearch {
+        .header {
+            &__logo {
+                display: none;
+            }
+            &__search {
+                display: block;
+                display: flex;
+            }
+            &__nav {
+                nav {
+                    display: none;
+                }
+            }
+        }
+    }
+    #header__nav-hov.header__nav-hov {
+        button {
+            display: none;
+        }
+    }
     .header {
         &__top {
             max-width: 800px;
             width: 100%;
         }
         &__search {
-            .searchInput {
-                max-width: 260px;
-                width: 100%;
-            }        
-        }
-        &__search {
             display: none;
             align-items: center;
+            width: 100%;
             .searchInput {
-                max-width: 490px;
+                max-width: 2500px;
                 width: 100%;
             }        
         }
@@ -556,14 +555,6 @@
             width: 100%;
             margin: 0 auto;
             padding: 0px 20px 0 20px;
-        }
-        &__search {
-            display: none;
-            align-items: center;
-            .searchInput {
-                max-width: 490px;
-                width: 100%;
-            }        
         }
         &__nav {
             .button-adaptiveSearch {
@@ -1141,12 +1132,6 @@
                 display: none;
             }
         }
-        &__search {
-            display: none;
-            .searchInput {
-                width: 332px;
-            }        
-        }
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -1227,6 +1212,11 @@
 @media screen and (max-width: 580px) {
     body {
         border-right: none;
+    }
+    #header__nav-hov.header__nav-hov {
+        button {
+            display: block;
+        }
     }
     #adaptiveSearch-hover.adaptiveSearch-hover {
         background: #0aa198 url(../img/png/search-w.png) no-repeat 50% 50%;
@@ -1327,11 +1317,9 @@
         }
         &__search {
             align-items: center;
-            margin: 2px 0 3px 0;
             .searchInput {
                 padding: 19px 0 17px 20px;
                 background:transparent;
-                width: 309px;
             }        
         }
         &__buttons {
@@ -1639,18 +1627,6 @@
     }
 }
 @media screen and (max-width: 375px) {
-    .header {
-        &__search {
-            align-items: center;
-            margin: 2px 0 3px 0;
-            .searchInput {
-                padding: 19px 0 17px 20px;
-                background:transparent;
-                max-width: 259px;
-                width: 100%;
-            }        
-        }
-    }
     .footer__submit {
         &-box {
             max-width: 335px;
@@ -1680,18 +1656,6 @@
                 width: 0;
                 height: 0;
             }
-        }
-    }
-    .header {
-        &__search {
-            align-items: center;
-            margin: 2px 0 3px 0;
-            .searchInput {
-                padding: 19px 0 17px 20px;
-                background:transparent;
-                max-width: 204px;
-                width: 100%;
-            }        
         }
     }
     .articles__text {
