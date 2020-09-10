@@ -2,12 +2,14 @@
     .header {
         &__top {
             max-width: 1330px;
+            width: 100%;
         }
         &__menu-wp {
             ul.menu,
             ul.sub-menu,
             .button {
                 max-width: 1330px;
+                width: 100%;
             }
         }
     }
@@ -16,7 +18,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 850px;
+                        max-width: 850px;
+                        width: 100%;
                     }
                 }
             }
@@ -29,6 +32,7 @@
     .footer {
         &__box {
             max-width: 1300px;
+            width: 100%;
         }
     }
 }
@@ -36,12 +40,14 @@
     .header {
         &__top {
             max-width: 1240px;
+            width: 100%;
         }
         &__menu-wp {
             ul.menu,
             ul.sub-menu,
             .button  {
                 max-width: 1240px;
+                width: 100%;
             }
         }
     }
@@ -52,6 +58,7 @@
     .footer {
         &__box {
             max-width: 1240px;
+            width: 100%;
         }
     }
 }
@@ -59,6 +66,7 @@
     .header {
         &__top {
             max-width: 1160px;
+            width: 100%;
         }
         &__search {
             .searchInput {
@@ -71,6 +79,7 @@
             ul.sub-menu,
             .button {
                 max-width: 1160px;
+                width: 100%;
             }
         }
     }
@@ -79,11 +88,13 @@
         width: 100%;
         &__card {
             max-width: 460px;
+            width: 100%;
         }
     }
     .footer {
         &__box {
             max-width: 1160px;
+            width: 100%;
         }
     }
 }
@@ -91,11 +102,13 @@
     .header {
         &__top {
             max-width: 1046px;
+            width: 100%;
         }
         &__search {
             .searchInput {
                 padding: 14px 0 12px 39px;
-                width: 395px;
+                max-width: 395px;
+                width: 100%;
             }        
         }
         &__menu-wp {
@@ -103,6 +116,7 @@
             ul.sub-menu,
             .button {
                 max-width: 1046px;
+                width: 100%;
             }
         }
     }
@@ -111,7 +125,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 750px;
+                        max-width: 750px;
+                        width: 100%;
                     }
                 }
             }
@@ -122,38 +137,45 @@
         width: 100%;
         &__card {
             max-width: 410px;
+            width: 100%;
         }
     }
     .footer {
         &__box {
             max-width: 1114px;
+            width: 100%;
         }
         &__submit {
             &-box {
                 max-width: 1040px;
+                width: 100%;
             }
         }
     }
     .box {
         max-width: 1040px;
+        width: 100%;
     }
     .advantages {
         &__box {
             max-width: 1040px;
+            width: 100%;
         }
     }
     .about {
         &__box {
             max-width: 1040px;
+            width: 100%;
         }
     }
     .stock {
         &__box {
             max-width: 1040px;
+            width: 100%;
         }
         &__button {
-            grid-row-start: 14;
-            grid-row-end: 12;
+            grid-row-start: 13;
+            grid-row-end: 11;
         }
     }
     .about {
@@ -169,11 +191,13 @@
     .header {
         &__top {
             max-width: 904px;
+            width: 100%;
         }
         &__search {
             .searchInput {
                 padding: 14px 0 12px 29px;
-                width: 290px;
+                max-width: 290px;
+                width: 100%;
             }        
         }
         &__menu-wp {
@@ -185,7 +209,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 600px;
+                        max-width: 600px;
+                        width: 100%;
                     }
                 }
             }
@@ -195,10 +220,12 @@
         margin: 20px auto;
         padding: 40px 20px 0 20px;
         max-width: 904px;
+        width: 100%;
     }
     .footer {
         &__box {
             max-width: 904px;
+            width: 100%;
         }
     }
 }
@@ -206,27 +233,56 @@
     .header {
         &__top {
             max-width: 854px;
+            width: 100%;
         }
         &__search {
             .searchInput {
                 padding: 14px 0 12px 29px;
-                width: 220px;
+                max-width: 220px;
+                width: 100%;
             }        
         }
     }
     .mainSlider {
         max-width: 854px;
+        width: 100%;
         &__card {
             max-width: 390px;
+            width: 100%;
+        }
+        &__title {
+            font-size: 20px;
         }
     }
     .footer {
         &__box {
             max-width: 844px;
+            width: 100%;
+        }
+    }
+    .services {
+        &__link {
+            font-size: 13px;
+            padding: 0;
+        }
+    }
+    .about {
+        &__card {
+            padding: 20px;
+        }
+        &__title {
+            font-size: 35px;
+            margin: 10px 0;
+        }
+        &__subtitle {
+            font-size: 14px;
         }
     }
 }
 @media screen and (max-width: 980px) {
+    body {
+        border-left: none;
+    }
     #adaptiveSearch.adaptiveSearch {
         .header {
             &__logo {
@@ -249,22 +305,26 @@
         }
         &__top {
             max-width: 870px;
-            margin: 0 auto 0 0;
+            width: 100%;
+            margin: 0 auto;
             padding: 60px 20px 0 20px;
         }
         &__search {
             align-items: center;
             .searchInput {
-                width: 260px;
+                max-width: 260px;
+                width: 100%;
             }        
         }
     }
     .mainSlider {
-        margin: 0 auto 0 0;
+        margin: 0 auto;
         padding: 40px 20px 0 20px;
         max-width: 870px;
+        width: 100%;
         &__card {
             max-width: 330px;
+            width: 100%;
         }
     }
     .leftSideBar {
@@ -275,7 +335,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 460px;
+                        max-width: 460px;
+                        width: 100%;
                     }
                 }
             }
@@ -304,8 +365,9 @@
     .footer {
         &__box {
             padding-left: 21px;
-            margin: 0 auto 0 0;
+            margin: 0 auto;
             max-width: 900px;
+            width: 100%;
         }
         &__column {
             width: 33%;
@@ -331,19 +393,29 @@
         &__submit {
             margin-bottom: 60px;
             &-box {
-                margin: 0 auto 0 0;
+                margin: 0 auto;
                 max-width: 918px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
                 input {
-                    width: 188px;
+                    max-width: 188px;
+                    width: 100%;
                 }
                 button {
-                    width: 188px;
+                    max-width: 188px;
+                    width: 100%;
         
                 }
             }
+        }
+    }
+
+    .stock {
+        &__button {
+            grid-row-start: 12;
+            grid-row-end: 10;
         }
     }
 }
@@ -361,9 +433,9 @@
             letter-spacing: 0.32px;
             margin: 10px 0;
         }
-        &__timerClock {
-            width: 320px;
-        }
+        // &__timerClock {
+        //     width: 320px;
+        // }
         &__timerItem {
             height: 37px;
             width: 50px;
@@ -409,17 +481,20 @@
     .header {
         &__top {
             max-width: 800px;
+            width: 100%;
         }
         &__search {
             .searchInput {
-                width: 260px;
+                max-width: 260px;
+                width: 100%;
             }        
         }
         &__search {
             display: none;
             align-items: center;
             .searchInput {
-                width: 490px;
+                max-width: 490px;
+                width: 100%;
             }        
         }
         &__nav {
@@ -430,15 +505,54 @@
     }
     .mainSlider {
         max-width: 800px;
+        width: 100%;
         &__card {
             max-width: 370px;
+            width: 100%;
         }
     }
     .footer {
         &__box {
             max-width: 800px;
+            width: 100%;
         }
     }
+    .box {
+        max-width: 800px;
+        width: 100%;
+    }
+    .advantages {
+        &__box {
+            max-width: 800px;
+            width: 100%;
+        }
+    }
+    .services {
+        &__wrapper.box {
+            max-width: 840px;
+            width: 100%;
+        }
+        &__card {
+            width: calc(100% / 3 - 20px);
+            margin: 10px;
+        }
+        &__button {
+            width: calc(100% - 20px);
+        }
+    }
+    .about {
+        &__box {
+            max-width: 800px;
+            width: 100%;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 800px;
+            width: 100%;
+        }
+    }
+
 }
 @media screen and (max-width: 880px) {
     .header {
@@ -447,14 +561,16 @@
         }
         &__top {
             max-width: 720px;
-            margin: 0 auto 0 0;
-            padding: 60px 20px 0 20px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 0px 20px 0 20px;
         }
         &__search {
             display: none;
             align-items: center;
             .searchInput {
-                width: 490px;
+                max-width: 490px;
+                width: 100%;
             }        
         }
         &__nav {
@@ -464,11 +580,13 @@
         }
     }
     .mainSlider {
-        margin: 0 auto 0 0;
+        margin: 0 auto;
         padding: 40px 20px 0 20px;
         max-width: 720px;
+        width: 100%;
         &__card {
             max-width: 330px;
+            width: 100%;
         }
     }
     .rightSideBar {  
@@ -476,7 +594,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 360px;
+                        max-width: 360px;
+                        width: 100%;
                     }
                 }
             }
@@ -505,8 +624,9 @@
     .footer {
         &__box {
             padding-left: 21px;
-            margin: 0 auto 0 0;
+            margin: 0 auto;
             max-width: 700px;
+            width: 100%;
         }
         &__column {
             width: 50%;
@@ -530,37 +650,56 @@
         &__submit {
             margin-bottom: 60px;
             &-box {
-                margin: 0 auto 0 0;
+                margin: 0 auto;
                 max-width: 718px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
                 input {
-                    width: 188px;
+                    max-width: 188px;
+                    width: 100%;
                 }
                 button {
-                    width: 188px;
+                    max-width: 188px;
+                    width: 100%;
         
                 }
             }
         }
     }
-}
-@media screen and (max-width: 780px) {
-    .header {
-        &__top {
-            max-width: 670px;
+    .stock {
+        &__title {
+            font-size: 18px;
         }
-    }
-    .mainSlider {
-        max-width: 670px;
+        &__subtitle {
+            font-size: 12px;
+        }
+        &__timerTitle {
+            font-size: 12px;
+        }
+        &__timerClock {
+            max-width: 250px;
+            width: 100%;
+        }
+        &__timerItem {
+            width: 40px;
+            height: 27px;
+            padding-top: 10px;
+        }
+        &__num {
+            font-size: 14px;
+        }
+
     }
     .box {
-        max-width: 670px;
+        max-width: 720px;
+        width: 100%;
     }
     .advantages {
         &__box {
-            max-width: 605px;
+            max-width: 720px;
+            width: 100%;
             margin: 0 auto;
         }
         &__item {
@@ -570,25 +709,29 @@
     }
     .services {
         &__wrapper.box {
-            max-width: 670px;
+            max-width: 740px;
+            width: 100%;
         }
         &__card {
-            width: calc(100% / 2 - 40px);
+            width: calc(100% / 2 - 20px);
             margin: 10px;
         }
         &__button {
+            width: calc(100% - 20px);
             padding: 20px 0;
-            margin-top: 20px;
+            margin-top: 10px;
         }
     }
     .about {
         &__box {
-            max-width: 670px;
+            max-width: 720px;
+            width: 100%;
         }
     }
     .stock {
         &__box {
-            max-width: 670px;
+            max-width: 720px;
+            width: 100%;
         }
         &__button {
             grid-row-start: 13;
@@ -626,6 +769,99 @@
         &__submit {
             &-box {
                 max-width: 1040px;
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 780px) {
+    .header {
+        &__top {
+            max-width: 670px;
+            width: 100%;
+        }
+    }
+    .mainSlider {
+        max-width: 670px;
+        width: 100%;
+    }
+    .box {
+        max-width: 670px;
+        width: 100%;
+    }
+    .advantages {
+        &__box {
+            max-width: 670px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__item {
+            width: calc(100% / 2 - 40px);
+            margin: 20px;
+        }
+    }
+    .services {
+        &__wrapper.box {
+            max-width: 710px;
+            width: 100%;
+        }
+        // &__card {
+        //     width: calc(100% / 2 - 40px);
+        //     margin: 20px;
+        // }
+        // &__button {
+        //     padding: 20px 0;
+        //     margin-top: 20px;
+        // }
+    }
+    .about {
+        &__box {
+            max-width: 670px;
+            width: 100%;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 670px;
+            width: 100%;
+        }
+        &__button {
+            grid-row-start: 13;
+            grid-row-end: 11;
+            grid-column-start: 12;
+            grid-column-end: 16;
+        }
+    }
+    .about {
+        &__title {
+            font-size: 25px;
+            font-weight: bold;
+            line-height: 30px;
+            letter-spacing: 0.7px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            letter-spacing: 0.32px;
+        }
+        &__button {
+            grid-row-start: 11;
+            grid-row-end: 9;
+            grid-column-start: 5;
+            grid-column-end: 9;
+        }
+        &__image {
+            grid-row-start: 1;
+            grid-row-end: 10;
+            grid-column-start: 2;
+            grid-column-end: 15;
+            img {
+                width: 100%;
+            }
+        }
+        &__submit {
+            &-box {
+                max-width: 1040px;
+                width: 100%;
             }
         }
     }
@@ -634,44 +870,19 @@
     .header {
         &__top {
             max-width: 650px;
+            width: 100%;
         }
     }
     .mainSlider {
         max-width: 650px;
+        width: 100%;
     }
     .stock {
-        &__title {
-            font-size: 25px;
-            line-height: 30px;
-            letter-spacing: 0.7px;
-            margin: 20px 0 20px;
-        }
-        &__subtitle {
-            font-weight: normal;
-            font-size: 14px;
-            letter-spacing: 0.32px;
-            margin: 10px 0;
-        }
-        &__timerClock {
-            width: 270px;
-        }
-        &__timerItem {
-            height: 37px;
-            width: 50px;
-            padding-top: 13px;
-        }
-        &__timerTitle {
-            margin: 30px 0 10px 0;
-            font-size: 14px;
-            letter-spacing: 0.18px;
-        }
-        &__num {
-            font-size: 16px;
-            font-weight: bold;
-            letter-spacing: 0.36px;
-        }
-        &__timerName {
-            display: none;
+        grid-row-start: 3;
+        grid-row-end: 20;
+        &__button {
+            grid-row-start: 12;
+            grid-row-end: 10;
         }
         &__dot {
             font-size: 18px;
@@ -683,6 +894,7 @@
     .header {
         &__top {
             max-width: 600px;
+            width: 100%;
         }        
     }
     .rightSideBar {
@@ -690,7 +902,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 340px;
+                        max-width: 340px;
+                        width: 100%;
                     }
                 }
             }
@@ -698,27 +911,71 @@
     }
     .mainSlider {
         max-width: 600px;
+        width: 100%;
+    }
+    .stock {
+        &__button {
+            grid-row-start: 11;
+            grid-row-end: 9;
+        }
     }
     .footer {
         &__box {
             max-width: 600px;
+            width: 100%;
         }
         &__submit {
             margin-bottom: 60px;
             &-box {
-                margin: 0 auto 0 0;
+                margin: 0 auto;
                 max-width: 638px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
                 input {
-                    width: 158px;
+                    max-width: 158px;
+                    width: 100%;
                 }
                 button {
-                    width: 158px;
+                    max-width: 158px;
+                    width: 100%;
         
                 }
             }
+        }
+    }
+    .box {
+        max-width: 600px;
+        width: 100%;
+    }
+    .advantages {
+        &__box {
+            max-width: 600px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__item {
+            width: calc(100% / 2 - 40px);
+            margin: 20px;
+        }
+    }
+    .services {
+        &__wrapper.box {
+            max-width: 640px;
+            width: 100%;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 600px;
+            width: 100%;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 600px;
+            width: 100%;
         }
     }
 }
@@ -726,6 +983,7 @@
     .header {
         &__top {
             max-width: 550px;
+            width: 100%;
         }
     }
     .rightSideBar {
@@ -733,7 +991,8 @@
             ul.menu {
                 li {
                     ul.sub-menu {
-                        width: 290px;
+                        max-width: 290px;
+                        width: 100%;
                     }
                 }
             }
@@ -741,24 +1000,29 @@
     }
     .mainSlider {
         max-width: 550px;
+        width: 100%;
     }
     .footer {
         &__box {
             max-width: 550px;
+            width: 100%;
         }
         &__submit {
             margin-bottom: 60px;
             &-box {
-                margin: 0 auto 0 0;
+                margin: 0 auto;
                 max-width: 568px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
                 input {
-                    width: 138px;
+                    max-width: 138px;
+                    width: 100%;
                 }
                 button {
-                    width: 138px;
+                    max-width: 138px;
+                    width: 100%;
         
                 }
             }
@@ -770,6 +1034,7 @@
         margin: 50px 0;
         &__box {
             max-width: 500px;
+            width: 100%;
             display: block;
         }
         .redBlock {
@@ -779,7 +1044,8 @@
             margin-top: 15px;
         }
         &__timerClock {
-            width: 350px;
+            max-width: 350px;
+            width: 100%;
         }
         &__sliders {
             width: 100%;
@@ -791,9 +1057,10 @@
         }
         &__timerName {
             display: block;
+            font-size: 10px;
         }
         &__card {
-            padding: 0;
+            padding: 15px;
         }
         &__timerTitle {
             margin: 15px 0 10px;
@@ -824,12 +1091,10 @@
     }
     .about {
         margin: 50px 0;
-        &__card {
-            padding: 0;
-        }
         &__box {
             display: block;
             max-width: 500px;
+            width: 100%;
         }
         .blueBlock {
             display: none;
@@ -845,6 +1110,7 @@
         &__slider {
             max-width: 500px;
             width: 100%;
+            width: 100%;
             margin: 0 auto;   
         }
         &__text {
@@ -854,12 +1120,14 @@
             padding: 10px 20px;
             max-width: 500px;
             width: 100%;
+            width: 100%;
             background: #fff;
             transform: matrix(1, 0, 0, 1, -0, 0);
         }
         &__images {
             width: 100%;
             max-width: 500px;
+            width: 100%;
         }
         &__title {
             font-size: 14px;
@@ -877,6 +1145,7 @@
     .header {
         &__top {
             max-width: 500px;
+            width: 100%;
         }
         &__nav {
             nav {
@@ -903,16 +1172,19 @@
     }
     .mainSlider {
         max-width: 500px;
+        width: 100%;
     }
     .footer {
         &__box {
             max-width: 500px;
+            width: 100%;
         }
         &__submit {
             margin-bottom: 60px;
             &-box {
-                margin: 0 auto 0 0;
+                margin: 0 auto;
                 max-width: 558px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
@@ -926,8 +1198,47 @@
             }
         }
     }
+    .box {
+        max-width: 500px;
+        width: 100%;
+    }
+    .advantages {
+        &__box {
+            max-width: 500px;
+            width: 100%;
+            margin: 0 auto;
+        }
+        &__item {
+            width: calc(100% / 2 - 40px);
+            margin: 20px;
+        }
+    }
+    .services {
+        &__wrapper.box {
+            max-width: 540px;
+            width: 100%;
+        }
+        &__item {
+            display: none;
+        }
+    }
+    .about {
+        &__box {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
+    .stock {
+        &__box {
+            max-width: 500px;
+            width: 100%;
+        }
+    }
 }
 @media screen and (max-width: 580px) {
+    body {
+        border-right: none;
+    }
     #adaptiveSearch-hover.adaptiveSearch-hover {
         background: #0aa198 url(../img/png/search-w.png) no-repeat 50% 50%;
     }
@@ -1109,8 +1420,9 @@
     }
     .footer {
         &__box {
-            margin: 0 auto 0 0;
+            margin: 0 auto;
             max-width: 320px;
+            width: 100%;
             padding-top: 50px;
             padding-bottom: 70px;
             padding-left: 0;
@@ -1150,15 +1462,20 @@
             &-box {
                 margin: 0 auto;
                 max-width: 385px;
+                width: 100%;
             }
             &-form {
                 margin: 37px auto 0 0;
                 input {
-                    width: 361px;
+                    display: block;
+                    max-width: 361px;
+                    width: 100%;
                     margin: 10px 0;
                 }
                 button {
-                    width: 385px;
+                    display: block;
+                    max-width: 385px;
+                    width: 100%;
                     margin: 10px 0;
                 }
             }
@@ -1168,6 +1485,11 @@
                 margin-bottom: 20px;
             }
         }
+    }
+}
+@media screen and (max-width: 500px) {
+    .articles__text {
+        max-width: 300px;
     }
 }
 @media screen and (max-width: 480px) {
@@ -1189,13 +1511,16 @@
 @media screen and (max-width: 380px) {
     .box {
         max-width: 320px;
+        width: 100%;
     }
     .advantages {
         &__box {
             max-width: 320px;
+            width: 100%;
         }
         &__item {
             max-width: 320px;
+            width: 100%;
             width: 100%;  
             margin-top: 10px;  
             &:last-child {
@@ -1214,12 +1539,12 @@
     }
     .services {
         &__card {
-            max-width: 320px;
+            max-width: 300px;
             width: 100%;  
             margin: 10px;
         }
-        &__item {
-            display: none;
+        &__button {
+            max-width: 300px;
         }
     }
     .popular {
@@ -1239,9 +1564,7 @@
     .about {
         &__box {
             max-width: 320px;
-        }
-        &__card {
-            padding: 0;
+            width: 100%;
         }
     }
     .sponsor {
@@ -1253,11 +1576,13 @@
     .sponsor .sponsor__wrapper.box {
         width: 100%;
         max-width: 380px;
+        width: 100%;
     }
     .stock {
         margin: 50px 0;
         &__box {
             max-width: 320px;
+            width: 100%;
             display: block;
         }
         .redBlock {
@@ -1267,7 +1592,8 @@
             margin-top: 15px;
         }
         &__timerClock {
-            width: 250px;
+            max-width: 250px;
+            width: 100%;
         }
         &__sliders {
             width: 100%;
@@ -1276,9 +1602,6 @@
             font-size: 22px;
             line-height: 24px;
             margin-top: 15px;
-        }
-        &__card {
-            padding: 0;
         }
         &__timerTitle {
             margin: 15px 0 10px;
@@ -1322,6 +1645,7 @@
     .footer__submit {
         &-box {
             max-width: 320px;
+            width: 100%;
         }
     }
 }
@@ -1333,146 +1657,25 @@
             .searchInput {
                 padding: 19px 0 17px 20px;
                 background:transparent;
-                width: 259px;
+                max-width: 259px;
+                width: 100%;
             }        
         }
     }
     .footer__submit {
         &-box {
             max-width: 335px;
+            width: 100%;
         }
         &-form {
             input {
-                width: 311px;
-            }
-            button {
-                width: 335px;
-            }
-        }
-    }
-}
-@media screen and (max-width: 380px) {
-    .box {
-        max-width: 320px;
-    }
-    .advantages {
-        &__box {
-            max-width: 320px;
-        }
-        &__item {
-            max-width: 320px;
-            width: 100%;  
-            margin-top: 10px;  
-            &:last-child {
-                .advantages__icon {
-                    width: 50px;
-                }
-            }
-        }
-        &__icon {
-            width: 33px;
-            margin-right: 15px;
-            img {
+                max-width: 311px;
                 width: 100%;
             }
-        }
-    }
-    .services {
-        &__card {
-            max-width: 320px;
-            width: 100%;  
-            margin: 10px;
-        }
-        &__item {
-            display: none;
-        }
-    }
-    .about {
-        &__box {
-            max-width: 320px;
-        }
-        &__card {
-            padding: 0;
-        }
-    }
-    .sponsor {
-        &__items {
-            padding: 30px 0;
-            width: 100%;
-        }
-    }
-    .sponsor .sponsor__wrapper.box {
-        width: 100%;
-        max-width: 380px;
-    }
-    .reviews {
-        &__more {
-            display: none;
-        }
-    }
-    .about {
-        margin: 50px 0;
-        &__box {
-            display: block;
-        }
-        .blueBlock {
-            display: none;
-        }
-        &__image {
-            display: none;
-        }
-        &__title {
-            font-size: 22px;
-        }
-    }
-    .footer__submit {
-        &-box {
-            max-width: 320px;
-        }
-    }
-    .stock {
-        margin: 50px 0;
-        &__box {
-            max-width: 320px;
-            display: block;
-        }
-        .redBlock {
-            display: none;
-        }
-        &__redText {
-            margin-top: 15px;
-        }
-        &__timerClock {
-            width: 250px;
-        }
-        &__sliders {
-            width: 100%;
-        }
-        &__title {
-            font-size: 22px;
-            line-height: 24px;
-            margin-top: 15px;
-        }
-        &__card {
-            padding: 0;
-        }
-        &__timerTitle {
-            margin: 15px 0 10px;
-            font-size: 15px;
-        }
-        &__timerItem {
-            height: 27px;
-            width: 40px;
-            padding-top: 10px;
-        }
-        &__timerName {
-            display: none;
-        }
-        &__num {
-            font-size: 14px;
-        }
-        &__button {
-            margin-top: 20px;
+            button {
+                max-width: 335px;
+                width: 100%;
+            }
         }
     }
 }
@@ -1497,20 +1700,27 @@
             .searchInput {
                 padding: 19px 0 17px 20px;
                 background:transparent;
-                width: 204px;
+                max-width: 204px;
+                width: 100%;
             }        
         }
+    }
+    .articles__text {
+        max-width: 280px;
     }
     .footer__submit {
         &-box {
             max-width: 280px;
+            width: 100%;
         }
         &-form {
             input {
-                width: 256px;
+                max-width: 256px;
+                width: 100%;
             }
             button {
-                width: 280px;
+                max-width: 280px;
+                width: 100%;
             }
         }
     }

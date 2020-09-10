@@ -133,7 +133,7 @@ $('.sponsor__items').slick({
 $('.articles__slider').slick({
   arrows: false,
   infinite: true,
-  slidesToShow: 2,
+  slidesToShow: 1,
   slidesToScroll: 1,
   dots: true,
   // autoplay: true,
@@ -164,6 +164,12 @@ $('.reviews__items').slick({
 
 
   responsive: [
+    {
+        breakpoint: 800,
+        settings: {
+            slidesToShow: 2
+        }
+    },
     {
       breakpoint: 700,
       settings: {

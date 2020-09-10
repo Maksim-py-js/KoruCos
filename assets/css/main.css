@@ -1,7 +1,9 @@
 @charset "UTF-8";
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  border-right: 50px solid #716a6c;
+  border-left: 50px solid #fff; }
 
 ul {
   padding: 0; }
@@ -1439,8 +1441,8 @@ button {
     font-size: 16px;
     letter-spacing: 0.32px; }
   .about__button {
-    grid-row-start: 17;
-    grid-row-end: 15;
+    grid-row-start: 14;
+    grid-row-end: 12;
     grid-column-start: 7;
     grid-column-end: 9;
     background-color: #0aa198;
@@ -1514,7 +1516,7 @@ button {
     letter-spacing: 0.32px;
     margin: 10px 0; }
   .stock__timerClock {
-    width: 420px;
+    max-width: 420px;
     display: flex;
     justify-content: space-between;
     align-items: center; }
@@ -1552,8 +1554,8 @@ button {
     font-weight: bold;
     letter-spacing: 0.4px; }
   .stock__button {
-    grid-row-start: 18;
-    grid-row-end: 16;
+    grid-row-start: 15;
+    grid-row-end: 13;
     grid-column-start: 12;
     grid-column-end: 15;
     background-color: #d87171;
@@ -1687,67 +1689,6 @@ button {
     background: #0aa198;
     color: #fff;
     transition: 0.1s; }
-
-.about {
-  margin: 100px 0 50px;
-  display: block; }
-  .about__box {
-    font-size: 0;
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
-    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%; }
-  .about .blueBlock {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    width: 30px;
-    height: 60px;
-    background-color: #0aa198;
-    z-index: -1; }
-  .about__image {
-    grid-row-start: 1;
-    grid-row-end: 10;
-    grid-column-start: 2;
-    grid-column-end: 12; }
-    .about__image img {
-      width: 100%; }
-  .about__card {
-    position: relative;
-    background: #fff;
-    padding: 30px 30px 100px;
-    grid-row-start: 4;
-    grid-row-end: 20;
-    grid-column-start: 9;
-    grid-column-end: 20; }
-  .about__title {
-    color: #716a6c;
-    font-family: "Montserrat";
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 40px;
-    letter-spacing: 0.7px; }
-  .about__subtitle {
-    color: #716a6c;
-    font-family: "Montserrat";
-    font-weight: normal;
-    font-size: 16px;
-    letter-spacing: 0.32px; }
-  .about__button {
-    grid-row-start: 16;
-    grid-row-end: 14;
-    grid-column-start: 6;
-    grid-column-end: 9;
-    background-color: #0aa198;
-    padding: 20px;
-    color: #fff;
-    border: none; }
-    .about__button:after {
-      content: '›';
-      color: #fff;
-      margin-left: 10px; }
 
 .reviews__hr {
   position: relative;
