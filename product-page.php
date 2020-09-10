@@ -15,31 +15,31 @@ get_header();
 						<div class="product__labelText blue">New</div>
 						<div class="product__labelText red">Sale</div>
 					</div>
-					<img src="img/png/slide.png" alt="Img">
+					<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 				</div>
 				<div class="product__gallery">
 					<span class="product__miniImage">
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</span>
 					<span class="product__miniImage">
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</span>
 					<span class="product__miniImage">
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</span>
 				</div>
 				<div class="product__social">
 					<span class="product__icon">
-							<img src="img/png/social-icons/icon-1.png" alt="Facebook">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/social-icons/icon-1.png" alt="Facebook">
 					</span>
 					<span class="product__icon">
-							<img src="img/png/social-icons/icon-2.png" alt="Twitter">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/social-icons/icon-2.png" alt="Twitter">
 					</span>
 					<span class="product__icon">
-							<img src="img/png/social-icons/icon-3.png" alt="Pinterest">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/social-icons/icon-3.png" alt="Pinterest">
 					</span>
 					<span class="product__icon">
-							<img src="img/png/social-icons/icon-4.png" alt="+">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/social-icons/icon-4.png" alt="+">
 					</span>
 					<span class="product__icon">
 							<div class="counter">0</div>
@@ -49,19 +49,19 @@ get_header();
 			<div class="product__leftContent">
 				<div class="product__stars">
 					<span class="product__starIcon">
-						<img src="img/svg/star.svg" alt="Star">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 					</span>	
 					<span class="product__starIcon">
-						<img src="img/svg/star.svg" alt="Star">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 					</span>	
 					<span class="product__starIcon">
-						<img src="img/svg/star.svg" alt="Star">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 					</span>	
 					<span class="product__starIcon">
-						<img src="img/svg/star.svg" alt="Star">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 					</span>	
 					<span class="product__starIcon">
-						<img src="img/svg/star.svg" alt="Star">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 					</span>	
 				</div>	
 				<h2 class="product__title">
@@ -101,13 +101,13 @@ get_header();
 					<button class="product__btnCart">
 						<span class="product__btnText">В корзину</span>
 						<span class="product__btnIcon">
-							<img src="img/png/icons/cart.png" alt="R">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/icons/cart.png" alt="R">
 						</span>
 					</button>
 					<button class="product__btnOneClick">
 						<span class="product__btnText">Купить в 1 клик</span>
 						<span class="product__btnIcon">
-							<img src="img/png/icons/rocket.png" alt="R">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/icons/rocket.png" alt="R">
 						</span>
 					</button>
 				</div>	
@@ -116,7 +116,7 @@ get_header();
 						<div class="product__listItem">
 							<span class="product__listText">Описание</span>
 							<div class="product__listIcon">
-								<img src="img/svg/sterlka.svg" alt=".">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/sterlka.svg" alt=".">
 							</div>
 						</div>
 						<div class="product__discriptionText">
@@ -127,7 +127,7 @@ get_header();
 						<div class="product__listItem">
 							<span class="product__listText">Параметры</span>
 							<div class="product__listIcon">
-								<img src="img/svg/sterlka.svg" alt=".">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/sterlka.svg" alt=".">
 							</div>
 						</div>
 						<div class="product__parameters">
@@ -159,7 +159,7 @@ get_header();
 						<div class="product__listItem">
 							<span class="product__listText">Доставка</span>
 							<div class="product__listIcon">
-								<img src="img/svg/sterlka.svg" alt=".">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/sterlka.svg" alt=".">
 							</div>
 						</div>
 						<div class="product__deliveryText">
@@ -179,7 +179,7 @@ get_header();
 						<div class="product__listItem">
 							<span class="product__listText">Отзывы</span>
 							<div class="product__listIcon">
-								<img src="img/svg/sterlka.svg" alt=".">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/sterlka.svg" alt=".">
 							</div>
 						</div>
 						<div class="product__reviewsForm">
@@ -195,7 +195,7 @@ get_header();
 						<div class="product__listItem">
 							<span class="product__listText">Отзывы 2</span>
 							<div class="product__listIcon">
-								<img src="img/svg/sterlka.svg" alt=".">
+								<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/sterlka.svg" alt=".">
 							</div>
 						</div>
 						<ul class="product__reviewsMessage">
@@ -208,19 +208,19 @@ get_header();
 								</div>
 								<div class="product__reviewsStars">
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 								</div>	
 								<p class="product__reviewsText">
@@ -236,19 +236,19 @@ get_header();
 								</div>
 								<div class="product__reviewsStars">
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 									<span class="product__starIcon">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</span>	
 								</div>	
 								<p class="product__reviewsText">
@@ -260,19 +260,19 @@ get_header();
 								<textarea class="product__textarea" placeholder="Текст вашего отзыва" rows="10"></textarea>
 								<div class="product__starButtons">
 									<button class="product__starButton">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</button>
 									<button class="product__starButton">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</button>
 									<button class="product__starButton">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</button>
 									<button class="product__starButton">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</button>
 									<button class="product__starButton">
-										<img src="img/svg/star.svg" alt="Star">
+										<img src="<?php bloginfo('template_directory') ?>/assets/img/svg/star.svg" alt="Star">
 									</button>
 								</div>
 								<button class="product__reviewsButton">
@@ -300,11 +300,11 @@ get_header();
 				<div class="similar__item">
 					<div class="similar__image">
 						<div class="similar__itemHover">
-							<button class="similar__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="similar__price">924 р.</p>
 					<strike class="similar__sale"><span class="similar__saleText">1555 р.</span></strike>
@@ -313,11 +313,11 @@ get_header();
 				<div class="similar__item">
 					<div class="similar__image">
 						<div class="similar__itemHover">
-							<button class="similar__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="similar__price">924 р.</p>
 					<strike class="similar__sale"><span class="similar__saleText">1555 р.</span></strike>
@@ -326,11 +326,11 @@ get_header();
 				<div class="similar__item">
 					<div class="similar__image">
 						<div class="similar__itemHover">
-							<button class="similar__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="similar__price">924 р.</p>
 					<strike class="similar__sale"><span class="similar__saleText">1555 р.</span></strike>
@@ -339,11 +339,11 @@ get_header();
 				<div class="similar__item">
 					<div class="similar__image">
 						<div class="similar__itemHover">
-							<button class="similar__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="similar__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="similar__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="similar__price">924 р.</p>
 					<strike class="similar__sale"><span class="similar__saleText">1555 р.</span></strike>
@@ -367,11 +367,11 @@ get_header();
 				<div class="recommend__item">
 					<div class="recommend__image">
 						<div class="recommend__itemHover">
-							<button class="recommend__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="recommend__price">924 р.</p>
 					<strike class="recommend__sale"><span class="recommend__saleText">555 р.</span></strike>
@@ -380,11 +380,11 @@ get_header();
 				<div class="recommend__item">
 					<div class="recommend__image">
 						<div class="recommend__itemHover">
-							<button class="recommend__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="recommend__price">924 р.</p>
 					<strike class="recommend__sale"><span class="recommend__saleText">555 р.</span></strike>
@@ -393,11 +393,11 @@ get_header();
 				<div class="recommend__item">
 					<div class="recommend__image">
 						<div class="recommend__itemHover">
-							<button class="recommend__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="recommend__price">924 р.</p>
 					<strike class="recommend__sale"><span class="recommend__saleText">555 р.</span></strike>
@@ -406,11 +406,11 @@ get_header();
 				<div class="recommend__item">
 					<div class="recommend__image">
 						<div class="recommend__itemHover">
-							<button class="recommend__widget"><img src="img/png/widget.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget2.png" alt="img"></button>
-							<button class="recommend__widget"><img src="img/png/widget3.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget2.png" alt="img"></button>
+							<button class="recommend__widget"><img src="<?php bloginfo('template_directory') ?>/assets/img/png/widget3.png" alt="img"></button>
 						</div>
-						<img src="img/png/slide.png" alt="Img">
+						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 					</div>
 					<p class="recommend__price">924 р.</p>
 					<strike class="recommend__sale"><span class="recommend__saleText">555 р.</span></strike>

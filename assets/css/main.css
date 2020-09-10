@@ -64,7 +64,7 @@ button {
   align-items: center;
   max-width: 1400px;
   margin: 0 auto;
-  padding: 60px 20px 0 20px; }
+  padding: 0px; }
 
 .header__search {
   display: flex;
@@ -126,6 +126,7 @@ button {
       .header__buttons .advancedSearch .hideMenu .block {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         margin: 22px 0; }
         .header__buttons .advancedSearch .hideMenu .block input,
         .header__buttons .advancedSearch .hideMenu .block select {
@@ -585,42 +586,42 @@ button {
     text-transform: uppercase;
     letter-spacing: 0.65px; }
 
-.rightSideBar__hideCart .products-cart {
+.rightSideBar__hideCart .items-cart {
   margin-top: 28px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 25px;
   border-bottom: 1px solid #e1e0df; }
-  .rightSideBar__hideCart .products-cart .image {
+  .rightSideBar__hideCart .items-cart .image {
     width: 61px;
     height: 61px; }
-    .rightSideBar__hideCart .products-cart .image img {
+    .rightSideBar__hideCart .items-cart .image img {
       width: 100%;
       height: 100%;
       object-position: 50% 50%;
       object-fit: cover; }
-  .rightSideBar__hideCart .products-cart .description {
+  .rightSideBar__hideCart .items-cart .description {
     opacity: 0.7;
     color: #716a6c;
     font-family: "Montserrat";
     font-size: 15px;
     font-weight: 400; }
-  .rightSideBar__hideCart .products-cart .right {
+  .rightSideBar__hideCart .items-cart .right {
     width: 190px;
     font-size: 18px;
     color: #9a9495; }
-  .rightSideBar__hideCart .products-cart .quantity {
+  .rightSideBar__hideCart .items-cart .quantity {
     width: 100px;
     height: 40px;
     margin: 15px 0;
     color: #726a6c;
     font-size: 20px; }
-    .rightSideBar__hideCart .products-cart .quantity input {
+    .rightSideBar__hideCart .items-cart .quantity input {
       width: 100px;
       height: 40px;
       border: none;
       text-align: center; }
-  .rightSideBar__hideCart .products-cart .price {
+  .rightSideBar__hideCart .items-cart .price {
     color: #716a6c;
     font-family: "Montserrat";
     font-size: 18px;
@@ -683,7 +684,8 @@ button {
     background: #000;
     opacity: .54;
     z-index: 450;
-    display: none; }
+    display: none;
+    z-index: 250; }
 
 .rightSideBar__hideRegister {
   max-height: 100vh;
@@ -870,6 +872,164 @@ button {
     padding-top: 9px; }
   .rightSideBar__open .block .socials a {
     margin-right: 20px; }
+
+.woocomerce__slider {
+  margin-top: 70px; }
+  .woocomerce__slider .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .woocomerce__slider .title {
+    color: #716a6c;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    margin: 10px 0; }
+  .woocomerce__slider .more {
+    background: none;
+    border: none;
+    color: #716a6c;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.7px; }
+    .woocomerce__slider .more:after {
+      content: '›';
+      color: #fff;
+      text-align: center;
+      background: #0aa198;
+      border-radius: 50%;
+      padding: 0px 6px; }
+  .woocomerce__slider-slideButtonPrev, .woocomerce__slider-slideButtonPrev-2 {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: "Montserrat";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: 50px 2.5px 2.5px;
+    border: 2px solid #0aa198;
+    background: transparent;
+    color: #0aa198;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.1s; }
+    .woocomerce__slider-slideButtonPrev:hover, .woocomerce__slider-slideButtonPrev-2:hover {
+      background: #0aa198;
+      color: #fff;
+      transition: 0.1s; }
+  .woocomerce__slider-slideButtonNext, .woocomerce__slider-slideButtonNext-2 {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    z-index: 100;
+    cursor: pointer;
+    border-radius: 50%;
+    display: inline-block;
+    font-family: "Montserrat";
+    width: 30px;
+    height: 30px;
+    margin: 50px 2.5px 2.5px;
+    text-align: center;
+    border: 2px solid #0aa198;
+    background: transparent;
+    color: #0aa198;
+    font-size: 22px;
+    font-weight: bold;
+    transition: 0.1s; }
+    .woocomerce__slider-slideButtonNext:hover, .woocomerce__slider-slideButtonNext-2:hover {
+      background: #0aa198;
+      color: #fff;
+      transition: 0.1s; }
+  .woocomerce__slider-wrapper {
+    position: relative; }
+  .woocomerce__slider .woocommerce ul.products {
+    margin: 40px auto;
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: center; }
+    .woocomerce__slider .woocommerce ul.products li.product {
+      width: 300px; }
+      .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link {
+        text-decoration: none; }
+        .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.onsale {
+          display: none; }
+        .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link img {
+          width: 100%;
+          max-width: 300px;
+          height: 100%;
+          max-height: 300px;
+          margin: 0 0 0 0; }
+        .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link h2.woocommerce-loop-product__title {
+          opacity: 0.7;
+          color: #716a6c;
+          font-family: "Montserrat";
+          font-size: 15px;
+          font-weight: 400;
+          margin: 5px 0;
+          padding: 0; }
+        .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.price {
+          margin-right: 20px;
+          display: inline-block;
+          vertical-align: middle;
+          margin: 5px 0; }
+          .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.price del {
+            opacity: 0.5;
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 18px;
+            font-weight: 400; }
+          .woocomerce__slider .woocommerce ul.products li.product a.woocommerce-LoopProduct-link.woocommerce-loop-product__link span.price bdi {
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 18px;
+            font-weight: 400; }
+      .woocomerce__slider .woocommerce ul.products li.product a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+        margin: 0;
+        color: transparent;
+        padding: 0;
+        height: 30px;
+        width: 30px;
+        background: #0ba29a url(../img/png/widget.png) no-repeat 50% 50%;
+        border-radius: 100%;
+        border: 1px solid white;
+        position: absolute;
+        top: 0;
+        left: 0%; }
+    .woocomerce__slider .woocommerce ul.products .slick-list {
+      width: 100%; }
+    .woocomerce__slider .woocommerce ul.products .slick-track {
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    .woocomerce__slider .woocommerce ul.products .slick-dots li.slick-active {
+      vertical-align: middle;
+      margin: 0; }
+      .woocomerce__slider .woocommerce ul.products .slick-dots li.slick-active button {
+        background: #0ba29a;
+        color: #0ba29a;
+        height: 7px;
+        width: 7px;
+        border: 1px solid #0ba29a; }
+    .woocomerce__slider .woocommerce ul.products .slick-dots li {
+      vertical-align: middle;
+      margin: 0; }
+      .woocomerce__slider .woocommerce ul.products .slick-dots li button:before {
+        content: ''; }
+      .woocomerce__slider .woocommerce ul.products .slick-dots li button {
+        background: none;
+        border: 1px solid #716a6c;
+        border-radius: 50%;
+        height: 2px;
+        width: 2px; }
 
 .mainSlider {
   font-size: 0;
@@ -1158,7 +1318,7 @@ button {
     position: absolute;
     top: 30%;
     left: 0;
-    z-index: 1000;
+    z-index: 100;
     cursor: pointer;
     border-radius: 50%;
     display: inline-block;
@@ -1181,7 +1341,7 @@ button {
     position: absolute;
     top: 30%;
     right: 0;
-    z-index: 1000;
+    z-index: 100;
     cursor: pointer;
     border-radius: 50%;
     display: inline-block;
@@ -1350,7 +1510,7 @@ button {
     position: absolute;
     top: 30%;
     left: 0;
-    z-index: 1000;
+    z-index: 100;
     cursor: pointer;
     border-radius: 50%;
     display: inline-block;
@@ -1373,7 +1533,7 @@ button {
     position: absolute;
     top: 30%;
     right: 0;
-    z-index: 1000;
+    z-index: 100;
     cursor: pointer;
     border-radius: 50%;
     display: inline-block;

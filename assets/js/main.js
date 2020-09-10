@@ -1,5 +1,35 @@
+$('.products').slick({
+  dots: true,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  prevArrow: '.woocomerce__slider-slideButtonPrev',
+  nextArrow: '.woocomerce__slider-slideButtonNext',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 700,
+      settings: {
+        slidesToShow: 2,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 400,
+      settings: {
+        slidesToShow: 1,
+        dots: false
+      }
+    }
+  ]
+});
 $('.popular__slider').slick({
-  // arrows: false,
   dots: true,
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -35,7 +65,6 @@ $('.newItems__slider').slick({
   infinite: true,
   slidesToShow: 4,
   slidesToScroll: 2,
-  // arrows: false,
   dots: true,
   prevArrow: '.newItems__slideButtonPrev',
   nextArrow: '.newItems__slideButtonNext',
@@ -67,7 +96,7 @@ $('.newItems__slider').slick({
 $('.instagram__items').slick({
   infinite: true,
   slidesToShow: 4,
-  slidesToScroll: 2,
+  slidesToScroll: 1,
   arrows: false,
   dots: false,
 
