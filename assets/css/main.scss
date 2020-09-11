@@ -1001,6 +1001,8 @@ button {
         }
     }
 }
+.woocommerce-product-gallery {opacity: 1 !important;}
+
 #wcpscwc-product-slider-1,
 #wcpscwc-product-slider-2 {
     .slick-list {
@@ -2637,6 +2639,84 @@ button {
 // ----------------------------------------------------------------------------------------------------------------------------------------
 // Карточка товара
 
+.site-main {
+    .product {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+        header.entry-header {
+            h1.entry-title {
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 21px;
+                font-weight: bold;
+                line-height: 30px;
+            }
+        }
+        .entry-content {
+
+            .woocommerce div.product div.summary {
+                width: calc(100% / 1.5 - 10px);
+            }
+            .woocommerce {
+                .single-product {
+                    .product {                        
+                        .woocommerce-product-gallery {
+                            width: calc(100% / 3 - 20px);
+                            figure.woocommerce-product-gallery__wrapper {
+                                .woocommerce-product-gallery__image {
+                                    a {
+                                        img.wp-post-image {
+                                            width: 100%;
+                                            height: 100%;
+                                            object-fit: cover;
+                                            object-position: 50% 50%;
+                                        }
+                                        img {
+                                            width: 90px;
+                                            height: 90px;
+                                            object-fit: cover;
+                                            object-position: 50% 50%;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .summary{
+                            .price {
+                                del {
+                                    span {
+                                        bdi {
+                                            opacity: 0.5;
+                                            color: #716a6c;
+                                            font-family: "Montserrat";
+                                            font-size: 21px;
+                                            font-weight: 400;
+                                        }
+                                    }
+                                }
+                                ins {
+                                    span {
+                                        bdi {
+                                            color: #716a6c;
+                                            font-family: "Montserrat";
+                                            font-size: 21px;
+                                            font-weight: bold;                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .woocommerce-tabs {
+                width: calc(100% / 1.5 - 10px);
+            }
+        }
+    }
+}
+
 .product {
     padding: 20px 0;
     &__navButtons {
@@ -3415,5 +3495,195 @@ button {
             color: #fff;
             transition: 0.1s;
         }  
+    }
+}
+
+
+// Страница сравнения товаров
+.productComparison {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto 110px;
+    &__title {
+        color: #716a6c;
+        font-family: "Montserrat";
+        font-size: 30px;
+        font-weight: bold;
+        letter-spacing: 0.6px;
+        margin-top: 49px;
+        margin-bottom: 22px;
+    }
+    &__tabs {        
+        display: block;
+        position: relative;
+        &:after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background: #eae9e9;
+            display: block;
+            opacity: 0;
+            margin-top: -1px;
+            visibility: hidden;
+            transition: all .3s ease;
+        }
+        &:hover {
+            &:after {
+                visibility: visible;
+                opacity: 1;
+            }
+        } 
+        .flex {
+            display: flex;
+            margin-top: 22px;
+        }
+        &-tab {
+            margin-right: 42px;
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+            &:after {
+                content: "";
+                width: calc(100% + 42px);
+                height: 2px;
+                background: #0aa198;
+                display: block;
+                opacity: 0;
+                margin-top: 20px;
+                visibility: hidden;
+                transition: all .3s ease;
+            }
+            &:hover {
+                &:after {
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+            &:hover {
+                color: #0aa198;
+                cursor: pointer;
+            }
+        }
+        .remove {
+            position: absolute;
+            top: 0;
+            right: 0;
+            button {
+                border: none;
+                padding: 0 0 0 30px;
+                margin: 0;
+                height: 20px;
+                background: transparent url(../img/png/remove.png) no-repeat 0 50%;
+                span {
+                    color: #0aa198;
+                    font-family: "Montserrat";
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    letter-spacing: 0.65px;
+                }
+            }
+        }
+    }
+    ::-webkit-scrollbar { width: 5px; height: 5px;}
+    ::-webkit-scrollbar-button {  background-color: #fff; }
+    ::-webkit-scrollbar-track {  background-color: #00a29a;}
+    ::-webkit-scrollbar-track-piece { background-color: #fff;}
+    ::-webkit-scrollbar-thumb { max-height: 50px; background-color: #00a29a; border-radius: 5px;}
+    ::-webkit-scrollbar-corner { background-color: #00a29a;}
+    ::-webkit-resizer { background-color: #fff;}
+    &__box {
+        overflow: auto;   
+        display: block;   
+        &-item {
+            width: 240px;
+            color: #716a6c;
+            font-family: "Montserrat";
+            font-size: 15px;
+            font-weight: bold;
+            line-height: 20px;
+            padding-top: 19px;
+            padding-bottom: 17px;
+            .name {
+                width: 100%;
+                max-width: 155px;
+            }
+        }
+        th, td {
+            border-bottom: 1px solid #eae9e9;
+        }
+        th {
+            text-align: left;
+        }
+        tr {
+            vertical-align: top;
+            &:first-child {
+                vertical-align: bottom;
+                &:hover {
+                    td, th {
+                        background: transparent;
+                        cursor: pointer;
+                    }
+                }
+            }
+            &:hover {
+                td, th {
+                    background: #f9f9f9;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__product-cart {
+        &-box {
+            width: 240px;
+            margin-top: 19px;
+            padding-bottom: 17px;
+            position: relative;
+            .image {
+                margin-bottom: 16px;
+                img {
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+            .price {
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 15px;
+                font-weight: bold;
+            }
+            .text {
+                color: #716a6c;
+                font-family: "Montserrat";
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                width: 200px;
+                &:hover {
+                    color: #0aa198;
+                }
+            }
+            .delete-btn {
+                position: absolute;
+                top: 0;
+                right: 40px;
+                button {
+                    width: 30px;
+                    height: 30px;
+                    border: 0;
+                    padding: 0;
+                    margin: 0;
+                    border-radius: 50%;
+                    background: #eae9e9 url(../img/png/close-5.png) no-repeat 50% 50%;
+                    &:hover {
+                        background: #0aa198 url(../img/png/close-6.png) no-repeat 50% 50%;
+                    }
+                }
+            }
+        }
     }
 }
