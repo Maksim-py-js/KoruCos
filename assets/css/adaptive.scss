@@ -12,7 +12,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 1330px;
     }
     .rightSideBar {
@@ -51,7 +52,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 1240px;
     }
     .mainSlider {
@@ -85,7 +87,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 1160px;
     }
     .mainSlider {
@@ -124,8 +127,14 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 1046px;
+    }
+    .thanks-for-order {
+        &__right {
+            padding: 36px 28px 46px 30px;
+        }
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -210,7 +219,8 @@
             display: none;
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 904px;
     }
     .rightSideBar {
@@ -251,7 +261,8 @@
             }        
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 854px;
     }
     .mainSlider {
@@ -312,8 +323,15 @@
             }        
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 870px;
+    }
+    .thanks-for-order {
+        &__left,
+        &__right {
+            width: 40%;
+        }
     }
     .mainSlider {
         margin: 0 auto;
@@ -515,7 +533,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 800px;
     }
     .mainSlider {
@@ -586,8 +605,24 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 720px;
+    }
+    .thanks-for-order {
+        &__left,
+        &__right {
+            width: 42%;
+        }
+        &__left {
+            &-title {
+                font-size: 24px;
+            }
+            &-text {
+                font-size: 18px;
+                font-weight: normal;
+            }
+        }
     }
     .mainSlider {
         margin: 0 auto;
@@ -790,7 +825,8 @@
             width: 100%;
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 670px;
     }
     .mainSlider {
@@ -885,7 +921,8 @@
             width: 100%;
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 650px;
     }
     .mainSlider {
@@ -912,8 +949,20 @@
             width: 100%;
         }        
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 600px;
+    }
+    .thanks-for-order {
+        flex-wrap: wrap;
+        &__left,
+        &__right {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__right {
+            margin-top: 40px;
+        }
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -1003,7 +1052,8 @@
             width: 100%;
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 550px;
     }
     .rightSideBar {
@@ -1172,7 +1222,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         max-width: 500px;
     }
     .rightSideBar {
@@ -1505,7 +1556,8 @@
             }
         }
     }
-    .productComparison {
+    .productComparison,
+    .thanks-for-order {
         &__title {
             font-size: 22px;
         }
@@ -1527,6 +1579,10 @@
             }
         }
     }
+    .thanks-for-order { 
+        padding: 0 20px;
+        width: calc(100% - 40px);
+    }
 }
 @media screen and (max-width: 500px) {
     .articles__text {
@@ -1546,6 +1602,30 @@
     .newItems {
         &__more {
             display: none;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .header {
+        &__print {
+            button {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+    .thanks-for-order {
+        &__right {
+            padding: 20px;
+            p {
+                &:first-child {
+                    margin-top: 0;
+                } 
+            }
+            .price {
+                margin-bottom: 0;
+            }
         }
     }
 }
