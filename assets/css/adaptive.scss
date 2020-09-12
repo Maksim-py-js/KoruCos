@@ -12,6 +12,10 @@
             }
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 1330px;
+    }
     .rightSideBar {
         &__hideMenu-wp {
             ul.menu {
@@ -48,6 +52,10 @@
             }
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 1240px;
+    }
     .mainSlider {
         max-width: 1240px;
         width: 100%;
@@ -78,6 +86,10 @@
                 width: 1160px;
             }
         }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 1160px;
     }
     .mainSlider {
         max-width: 1160px;
@@ -113,6 +125,15 @@
             .button {
                 width: 1046px;
             }
+        }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 1046px;
+    }
+    .thanks-for-order {
+        &__right {
+            padding: 36px 28px 46px 30px;
         }
     }
     .rightSideBar {
@@ -198,6 +219,10 @@
             display: none;
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 904px;
+    }
     .rightSideBar {
         &__hideMenu-wp {
             ul.menu {
@@ -235,6 +260,10 @@
                 width: 100%;
             }        
         }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 854px;
     }
     .mainSlider {
         max-width: 854px;
@@ -292,6 +321,16 @@
                 max-width: 260px;
                 width: 100%;
             }        
+        }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 870px;
+    }
+    .thanks-for-order {
+        &__left,
+        &__right {
+            width: 40%;
         }
     }
     .mainSlider {
@@ -494,6 +533,10 @@
             }
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 800px;
+    }
     .mainSlider {
         max-width: 800px;
         width: 100%;
@@ -559,6 +602,25 @@
         &__nav {
             .button-adaptiveSearch {
                 display: block;  
+            }
+        }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 720px;
+    }
+    .thanks-for-order {
+        &__left,
+        &__right {
+            width: 42%;
+        }
+        &__left {
+            &-title {
+                font-size: 24px;
+            }
+            &-text {
+                font-size: 18px;
+                font-weight: normal;
             }
         }
     }
@@ -763,6 +825,10 @@
             width: 100%;
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 670px;
+    }
     .mainSlider {
         max-width: 670px;
         width: 100%;
@@ -855,6 +921,10 @@
             width: 100%;
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 650px;
+    }
     .mainSlider {
         max-width: 650px;
         width: 100%;
@@ -878,6 +948,21 @@
             max-width: 600px;
             width: 100%;
         }        
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 600px;
+    }
+    .thanks-for-order {
+        flex-wrap: wrap;
+        &__left,
+        &__right {
+            max-width: 100%;
+            width: 100%;
+        }
+        &__right {
+            margin-top: 40px;
+        }
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -966,6 +1051,10 @@
             max-width: 550px;
             width: 100%;
         }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 550px;
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -1132,6 +1221,10 @@
                 display: none;
             }
         }
+    }
+    .productComparison,
+    .thanks-for-order {
+        max-width: 500px;
     }
     .rightSideBar {
         &__hideMenu-wp {
@@ -1463,6 +1556,33 @@
             }
         }
     }
+    .productComparison,
+    .thanks-for-order {
+        &__title {
+            font-size: 22px;
+        }
+        &__tabs { 
+            &-tab {
+                font-size: 12px;
+                margin-right: 30px;
+                &:after {
+                    width: 100%;
+                }
+            }
+            .remove {
+                button {
+                    padding: 0 0 0 20px;
+                    span {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .thanks-for-order { 
+        padding: 0 20px;
+        width: calc(100% - 40px);
+    }
 }
 @media screen and (max-width: 500px) {
     .articles__text {
@@ -1482,6 +1602,30 @@
     .newItems {
         &__more {
             display: none;
+        }
+    }
+}
+@media screen and (max-width: 425px) {
+    .header {
+        &__print {
+            button {
+                span {
+                    display: none;
+                }
+            }
+        }
+    }
+    .thanks-for-order {
+        &__right {
+            padding: 20px;
+            p {
+                &:first-child {
+                    margin-top: 0;
+                } 
+            }
+            .price {
+                margin-bottom: 0;
+            }
         }
     }
 }
