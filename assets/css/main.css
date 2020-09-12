@@ -91,6 +91,25 @@ button {
   padding: 60px 0 0;
 }
 
+.header__print button {
+  margin: 0;
+  padding: 0 0 0 30px;
+  border: none;
+  min-width: 30px;
+  min-height: 20px;
+  background: transparent url(../img/png/print.png) no-repeat 0 50%;
+}
+
+.header__print button span {
+  color: #0aa198;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
 .header__search {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4434,10 +4453,329 @@ button {
   fill: #0aa198;
 }
 
+.productComparison {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto 110px;
+}
+
+.productComparison__title {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  margin-top: 49px;
+  margin-bottom: 22px;
+}
+
+.productComparison__tabs {
+  display: block;
+  position: relative;
+}
+
+.productComparison__tabs:after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background: #eae9e9;
+  display: block;
+  opacity: 0;
+  margin-top: -1px;
+  visibility: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.productComparison__tabs:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.productComparison__tabs .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 22px;
+}
+
+.productComparison__tabs-tab {
+  margin-right: 42px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+}
+
+.productComparison__tabs-tab:after {
+  content: "";
+  width: calc(100% + 42px);
+  height: 2px;
+  background: #0aa198;
+  display: block;
+  opacity: 0;
+  margin-top: 20px;
+  visibility: hidden;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.productComparison__tabs-tab:hover:after {
+  visibility: visible;
+  opacity: 1;
+}
+
+.productComparison__tabs-tab:hover {
+  color: #0aa198;
+  cursor: pointer;
+}
+
+.productComparison__tabs .remove {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.productComparison__tabs .remove button {
+  border: none;
+  padding: 0 0 0 30px;
+  margin: 0;
+  height: 20px;
+  background: transparent url(../img/png/remove.png) no-repeat 0 50%;
+}
+
+.productComparison__tabs .remove button span {
+  color: #0aa198;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.65px;
+}
+
+.productComparison ::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.productComparison ::-webkit-scrollbar-button {
+  background-color: #fff;
+}
+
+.productComparison ::-webkit-scrollbar-track {
+  background-color: #00a29a;
+}
+
+.productComparison ::-webkit-scrollbar-track-piece {
+  background-color: #fff;
+}
+
+.productComparison ::-webkit-scrollbar-thumb {
+  max-height: 50px;
+  background-color: #00a29a;
+  border-radius: 5px;
+}
+
+.productComparison ::-webkit-scrollbar-corner {
+  background-color: #00a29a;
+}
+
+.productComparison ::-webkit-resizer {
+  background-color: #fff;
+}
+
+.productComparison__box {
+  overflow: auto;
+  display: block;
+}
+
+.productComparison__box-item {
+  width: 240px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-top: 19px;
+  padding-bottom: 17px;
+}
+
+.productComparison__box-item .name {
+  width: 100%;
+  max-width: 155px;
+}
+
+.productComparison__box th, .productComparison__box td {
+  border-bottom: 1px solid #eae9e9;
+}
+
+.productComparison__box th {
+  text-align: left;
+}
+
+.productComparison__box tr {
+  vertical-align: top;
+}
+
+.productComparison__box tr:first-child {
+  vertical-align: bottom;
+}
+
+.productComparison__box tr:first-child:hover td, .productComparison__box tr:first-child:hover th {
+  background: transparent;
+  cursor: pointer;
+}
+
+.productComparison__box tr:hover td, .productComparison__box tr:hover th {
+  background: #f9f9f9;
+  cursor: pointer;
+}
+
+.productComparison__product-cart-box {
+  width: 240px;
+  margin-top: 19px;
+  padding-bottom: 17px;
+  position: relative;
+}
+
+.productComparison__product-cart-box .image {
+  margin-bottom: 16px;
+}
+
+.productComparison__product-cart-box .image img {
+  width: 80px;
+  height: 80px;
+}
+
+.productComparison__product-cart-box .price {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.productComparison__product-cart-box .text {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 200px;
+}
+
+.productComparison__product-cart-box .text:hover {
+  color: #0aa198;
+}
+
+.productComparison__product-cart-box .delete-btn {
+  position: absolute;
+  top: 0;
+  right: 40px;
+}
+
+.productComparison__product-cart-box .delete-btn button {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  background: #eae9e9 url(../img/png/close-5.png) no-repeat 50% 50%;
+}
+
+.productComparison__product-cart-box .delete-btn button:hover {
+  background: #0aa198 url(../img/png/close-6.png) no-repeat 50% 50%;
+}
+
+.thanks-for-order {
+  width: 100%;
+  max-width: 1400px;
+  margin: 67px auto 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.thanks-for-order__left-title {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  margin-bottom: 15px;
+}
+
+.thanks-for-order__left-text {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  width: 100%;
+  max-width: 540px;
+  margin-top: 20px;
+  margin-bottom: 16px;
+}
+
+.thanks-for-order__left-subText {
+  opacity: 0.77;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+  max-width: 440px;
+  margin-top: 16px;
+  margin-bottom: 13px;
+}
+
+.thanks-for-order__left-status {
+  margin-top: 30px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.thanks-for-order__left-status a {
+  color: #0aa198;
+}
+
+.thanks-for-order__right {
+  width: 100%;
+  height: 100%;
+  max-width: 360px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 20px;
+  padding: 36px 80px 46px 30px;
+  border: 1px solid #eae9e9;
+}
+
+.thanks-for-order__right p {
+  margin-top: 15px;
+}
+
+.thanks-for-order__right span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.thanks-for-order__right .price {
+  margin-top: 36px;
+}
+
 .catalog {
   width: 100%;
   max-width: 1400px;
-  margin: 40px auto 80px;
+  margin: 0 auto 80px;
 }
 
 .catalog__breadcrumbs nav.woocommerce-breadcrumb {
@@ -4447,10 +4785,77 @@ button {
   font-size: 11px;
   font-weight: 400;
   line-height: 28px;
+  padding-top: 40px;
+  border-top: 1px solid #eae9e9;
 }
 
 .catalog__breadcrumbs nav.woocommerce-breadcrumb a {
   color: #716a6c;
   text-decoration: none;
+}
+
+.catalog__title {
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #eae9e9;
+}
+
+.catalog__filters {
+  padding-top: 25px;
+}
+
+.catalog__filters-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.catalog__filters-left .dropdown {
+  position: relative;
+}
+
+.catalog__filters-left .dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.catalog__filters-left .dropdown span {
+  color: #716a6c;
+  font-family: "Montserrat - Semi Bold";
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  padding-bottom: 20px;
+}
+
+.catalog__filters-left .dropdown-content {
+  width: 280px;
+  padding: 0 30px;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0.15px;
+  -webkit-box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), inset 0 -2px 0 #0aa198;
+          box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), inset 0 -2px 0 #0aa198;
+  background-color: #ffffff;
+}
+
+.catalog__filters-left .dropdown-content .item {
+  padding: 25px 0;
+  border-bottom: 1px solid #eae9e9;
+}
+
+.catalog__filters-left .dropdown-content .item:last-child {
+  border-bottom: none;
+}
+
+.catalog__filters-left .dropdown-content .item:hover {
+  color: #0aa198;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
