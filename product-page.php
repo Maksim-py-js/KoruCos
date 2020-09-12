@@ -9,32 +9,46 @@ get_header();
 	<div class="product">
 		<div class="box">
 			<div class="product__navButtons">
-				<button class="product__prev">&#8592; Предыдущий</button>
-				<button class="product__next">Следующий &#8594;</button>
+				<button class="product__prev">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="10px">
+					<path fill-rule="evenodd"  fill="#716a6c" d="M26.000,6.000 L4.333,6.000 L7.000,8.000 L6.000,10.000 L-0.007,4.997 L6.000,-0.001 L7.000,2.000 L4.333,4.000 L26.000,4.000 L26.000,6.000 Z" class="prevArrow"/></svg>
+					<span class="product__navText">Предыдущий</span>
+				</button>
+				<button class="product__next"> 
+					<span class="product__navText">Следующий</span>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="10px">
+						<path fill-rule="evenodd"  fill="#716a6c" d="M20.000,10.000 L19.000,8.000 L21.667,6.000 L-0.000,6.000 L-0.000,4.000 L21.667,4.000 L19.000,2.000 L20.000,-0.001 L26.007,4.997 L20.000,10.000 Z" class="nextArrow"/>
+					</svg>
+				</button>
 			</div>
 			<div class="hr"></div>
 			<div class="product__box">
 				<div class="product__rightContent">
-					<div class="product__image">
-						<div class="product__salePercent">10%</div>
-						<div class="product__label">
-							<div class="product__labelText blue">New</div>
-							<div class="product__labelText red">Sale</div>
-						</div>
-						<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
-					</div>
 					<div class="product__gallery">
-						<span class="product__miniImage">
+						<span class="product__image">
+							<div class="product__salePercent">10%</div>
+							<div class="product__label">
+								<div class="product__labelText blue">New</div>
+								<div class="product__labelText red">Sale</div>
+							</div>
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 						</span>
-						<span class="product__miniImage">
+						<span class="product__image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 						</span>
-						<span class="product__miniImage">
+						<span class="product__image">
+							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
+						</span>
+						<span class="product__image">
 							<img src="<?php bloginfo('template_directory') ?>/assets/img/png/slide.png" alt="Img">
 						</span>
 					</div>
 					<div class="product__social">
+						<div class="product__share">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="29px">
+								<path fill-rule="evenodd"  fill="rgb(113, 106, 108)" d="M16.000,10.498 C14.854,10.498 13.811,10.098 12.968,9.450 L9.423,12.215 C9.779,12.902 10.000,13.671 10.000,14.499 C10.000,15.612 9.624,16.630 9.009,17.461 L12.368,20.081 C13.280,19.113 14.565,18.500 16.000,18.500 C18.761,18.500 21.000,20.738 21.000,23.499 C21.000,26.260 18.761,28.499 16.000,28.499 C13.239,28.499 11.000,26.260 11.000,23.499 C11.000,22.897 11.123,22.327 11.319,21.792 L7.493,18.808 C6.757,19.236 5.913,19.498 5.000,19.498 C2.239,19.498 -0.000,17.260 -0.000,14.499 C-0.000,11.738 2.239,9.500 5.000,9.500 C6.210,9.500 7.305,9.947 8.170,10.663 L11.567,8.013 L11.881,8.327 C11.327,7.522 11.000,6.550 11.000,5.499 C11.000,2.738 13.239,0.500 16.000,0.500 C18.761,0.500 21.000,2.738 21.000,5.499 C21.000,8.260 18.761,10.498 16.000,10.498 ZM16.000,26.499 C17.654,26.499 19.000,25.154 19.000,23.499 C19.000,21.845 17.654,20.500 16.000,20.500 C14.346,20.500 13.000,21.845 13.000,23.499 C13.000,25.154 14.346,26.499 16.000,26.499 ZM5.000,11.500 C3.345,11.500 2.000,12.845 2.000,14.499 C2.000,16.153 3.345,17.499 5.000,17.499 C6.654,17.499 8.000,16.153 8.000,14.499 C8.000,12.845 6.654,11.500 5.000,11.500 ZM16.000,2.500 C14.346,2.500 13.000,3.845 13.000,5.499 C13.000,7.153 14.346,8.499 16.000,8.499 C17.654,8.499 19.000,7.153 19.000,5.499 C19.000,3.845 17.654,2.500 16.000,2.500 Z"/>
+						</svg>
+						</div>
 						<span class="product__icon">
 								<img src="<?php bloginfo('template_directory') ?>/assets/img/png/social-icons/icon-1.png" alt="Facebook">
 						</span>
@@ -295,7 +309,7 @@ get_header();
 			<div class="box">
 				<div class="similar__top">
 					<h2 class="similar__title">
-						Популярные товары 
+						Похожие товары 
 					</h2>
 					<button class="similar__more">
 						Смотреть все
@@ -418,7 +432,7 @@ get_header();
 			<div class="box">
 				<div class="recommend__top">
 					<h2 class="recommend__title">
-						Популярные товары 
+						Рекомендуем 
 					</h2>
 					<button class="recommend__more">
 						Смотреть все

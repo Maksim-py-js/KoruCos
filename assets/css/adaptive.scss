@@ -1691,18 +1691,18 @@
             width: 100%;
             margin: 0 auto;
         }
-        &__image {
-            width: calc(100% - 110px);
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 20px;
-        }
-        &__gallery {
-            max-width: 90px;
-            width: 100%;
-            display: inline-block;
-            vertical-align: top;
-        }
+        // &__image {
+        //     width: calc(100% - 110px);
+        //     display: inline-block;
+        //     vertical-align: top;
+        //     margin-right: 20px;
+        // }
+        // &__gallery {
+        //     max-width: 90px;
+        //     width: 100%;
+        //     display: inline-block;
+        //     vertical-align: top;
+        // }
 
         &__miniImage {
             max-width: 90px;
@@ -1722,11 +1722,28 @@
 
 @media screen and (max-width: 520px) {
     .product {
+        .parametersList {
+            display: block;
+        }
+        .parametrsItem {
+            display: block;
+            margin: 5px 0;
+            width: 100%;
+        }
         &__leftContent {
             max-width: calc(100% - 20px);
             width: 100%;
         }
-        &__gallery {
+        &__navText {
+            display: none;
+        }
+        // &__gallery {
+        //     display: none;
+        // }
+        &__share {
+            display: block;
+        }
+        &__icon {
             display: none;
         }
         &__image {
@@ -1786,6 +1803,28 @@
             font-size: 11px;
         }
         // ------------------------------
+    }
+    .similar {
+        &__more {
+            display: none;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        .hr {
+            margin: 0;
+        }
+    }
+    .recommend {
+        &__more {
+            display: none;
+        }
+        &__title {
+            font-size: 20px;
+        }
+        .hr {
+            margin: 0;
+        }
     }
 }
 
@@ -1858,5 +1897,103 @@
             font-size: 11px;
         }
         // ------------------------------
+    }
+}
+
+// ----------------------------------------------
+// корзина
+
+@media screen and (max-width: 900px) {
+    .cart {
+        &__formBlock {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__formInput {
+            width: 100%;
+            &:nth-child(2) {
+                margin: 10px 0;
+            }
+        }
+        &__formButton {
+            width: 100%;
+        }
+        &__formWrapper {
+            display: block;
+            width: calc(100% / 2 - 20px);
+        }
+        &__footer {
+            width: calc(100% / 2 - 20px);
+            border: none;
+            background: rgba(113, 106, 108, 0.2);
+            padding: 10px;
+        }
+        &__footerText {
+            font-size: 14px;
+            font-weight: 400;
+        }
+        &__linkSignUp {
+            font-size: 14px;
+            width: 100%;
+        }
+        &__btnWithout {
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cart {
+        &__columnDiscription {
+            display: block;
+        }
+        &__itemName {
+            display: inline-block; 
+        }
+        &__rowName {
+            .cart__columnItem {
+                strong {
+                    display: none;
+                }
+            }
+            .long {
+                strong {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cart {
+        &__formBlock {
+            display: block;
+        }
+        &__formWrapper {
+            width: 100%;
+        }
+        &__footer {
+            width: 100%;
+        }
+        &__rowProduct {
+            display: block;
+            position: relative;
+        }
+        .long {
+            width: 100%;
+        }
+        &__columnBasket {
+            position: absolute;
+            top: 10px;
+            right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .cart {
     }
 }
