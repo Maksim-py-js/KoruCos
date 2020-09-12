@@ -13,7 +13,7 @@
 
 	<footer class="footer">		
 		<div class="footer__submit">
-			<div class="footer__submit-box">
+			<div class="footer__submit-box box">
 				<div class="hr"></div>
 				<div class="footer__submit-title">Подпишись на нашу рассылку</div>
 				<div class="footer__submit-subTitle">Подпишись на нашу рассылку и получи доступ к скидкам до 50% каждую неделю!</div>
