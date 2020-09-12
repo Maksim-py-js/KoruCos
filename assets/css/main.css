@@ -2975,7 +2975,7 @@ button {
 .footer__submit-box {
   font-size: 0;
   margin: 0 auto;
-  max-width: 1160px;
+  max-width: 1400px;
   width: 100%;
   text-align: center;
 }
@@ -4501,5 +4501,25 @@ button {
 
 .thanks-for-order__right .price {
   margin-top: 36px;
+}
+
+.catalog {
+  width: 100%;
+  max-width: 1400px;
+  margin: 40px auto 80px;
+}
+
+.catalog__breadcrumbs nav.woocommerce-breadcrumb {
+  opacity: 0.8;
+  color: #716a6c;
+  font-family: "Montserrat";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.catalog__breadcrumbs nav.woocommerce-breadcrumb a {
+  color: #716a6c;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
