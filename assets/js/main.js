@@ -313,3 +313,40 @@ btn.on('click', function(e) {
   e.preventDefault();
   $('html, body').animate({scrollTop:0}, '300');
 });
+
+$(function() {
+ 
+  (function quantityProducts() {
+    var $quantityArrowMinus = $(".quantity-arrow-minus");
+    var $quantityArrowPlus = $(".quantity-arrow-plus");
+    var $quantityNum = $(".quantity-num");
+ 
+    $quantityArrowMinus.click(quantityMinus);
+    $quantityArrowPlus.click(quantityPlus);
+ 
+    function quantityMinus() {
+      if ($quantityNum.val() > 1) {
+        $quantityNum.val(+$quantityNum.val() - 1);
+      }
+    }
+ 
+    function quantityPlus() {
+      $quantityNum.val(+$quantityNum.val() + 1);
+    }
+  })();
+ 
+});
+
+$(document).ready(function() {
+
+  $(window).resize(function(){
+    var windowWidth = $('body').innerWidth();
+    if(windowWidth < 580){
+      document.querySelectorAll('.catalog__item').forEach(item => {
+        item.classList.remove('catalog__row-page-item');
+      });
+      document.querySelector('#block-button').classList.add('active');
+      document.querySelector('#row-button').classList.remove('active');
+    }
+  });
+});
